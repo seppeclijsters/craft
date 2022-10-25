@@ -1,0 +1,327 @@
+field: 432cafcd-9d3b-4780-a696-4f52c651f7bb # Inhoud
+fieldLayouts:
+  af52ff59-8296-4662-a486-1d71716a0425:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7c935f76-0d6d-424f-a97d-d68d7315a7ef # Beeld
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c0815e3-200b-4120-a59e-84ab2f35aed3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: a8df5ada-704f-4a20-90ac-d1de65269712 # Titel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 931b1116-977a-4c20-93b5-2cbf3df25b37
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 95c644f3-1935-4405-8aec-6ed0d2536935 # Tekst
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 153ce782-1ed9-4f50-98b8-7697424ca877
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e1ae8cdf-4918-4157-9ce0-6bc4c5cf991b # Knop
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: abba8b2d-1784-4a1f-9547-c4c01579abf7
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 7e02bc36-2862-48ae-9a94-00b7a0b5dc95 # Beeld positie
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e32a0718-51cb-4892-9a7d-6206d7c39623
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4b3d046c-a1a4-4865-a71e-61237b3af867 # Zwarte achtergrond
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3228ce76-7410-4199-b4f8-eb9ec77621bb
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e73be628-475c-4acd-aec3-52dc2878baad # Extra ruimte onderaan
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dc51c80d-4744-4986-8ea0-31e89dae103e
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: f64265d8-120f-4aed-95f6-3f509a89151c
+        userCondition: null
+fields:
+  4b3d046c-a1a4-4865-a71e-61237b3af867: # Zwarte achtergrond
+    columnSuffix: kwiexztn
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: bgBlack
+    instructions: null
+    name: 'Zwarte achtergrond'
+    searchable: false
+    settings:
+      default: false
+      offLabel: Neen
+      onLabel: Ja
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  7c935f76-0d6d-424f-a97d-d68d7315a7ef: # Beeld
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: null
+    name: Beeld
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:c721101d-e94c-4173-bf35-157876a59aa9' # Algemeen
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:c721101d-e94c-4173-bf35-157876a59aa9' # Algemeen
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  7e02bc36-2862-48ae-9a94-00b7a0b5dc95: # Beeld positie
+    columnSuffix: fbbuynnp
+    contentColumnType: string
+    fieldGroup: null
+    handle: position
+    instructions: null
+    name: 'Beeld positie'
+    searchable: false
+    settings:
+      default: full
+      options:
+        __assoc__:
+          -
+            - left
+            - '1'
+          -
+            - center
+            - ''
+          -
+            - right
+            - ''
+          -
+            - full
+            - '1'
+          -
+            - drop-left
+            - ''
+          -
+            - drop-right
+            - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: rias\positionfieldtype\fields\Position
+  95c644f3-1935-4405-8aec-6ed0d2536935: # Tekst
+    columnSuffix: ylwtczym
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Tekst
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  a8df5ada-704f-4a20-90ac-d1de65269712: # Titel
+    columnSuffix: spohktyv
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Titel
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Heading.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  e1ae8cdf-4918-4157-9ce0-6bc4c5cf991b: # Knop
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: linkIt
+    instructions: null
+    name: Knop
+    searchable: false
+    settings:
+      allowCustomText: true
+      allowTarget: true
+      autoNoReferrer: false
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: custom
+      defaultText: ''
+      enableAllLinkTypes: false
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: true
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+  e73be628-475c-4acd-aec3-52dc2878baad: # Extra ruimte onderaan
+    columnSuffix: rgufjbxq
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: marginBottom
+    instructions: null
+    name: 'Extra ruimte onderaan'
+    searchable: false
+    settings:
+      default: false
+      offLabel: Verbergen
+      onLabel: Tonen
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+handle: textAndImage
+name: '(beeld +) Tekst'
+sortOrder: 3

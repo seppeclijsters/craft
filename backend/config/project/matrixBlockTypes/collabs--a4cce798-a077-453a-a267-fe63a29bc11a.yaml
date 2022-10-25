@@ -1,0 +1,176 @@
+field: 432cafcd-9d3b-4780-a696-4f52c651f7bb # Inhoud
+fieldLayouts:
+  78768902-82cd-4e5f-a9ad-54dba77494b0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 4e729d7b-52c2-446c-9cd6-9421a5448802 # Titel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 85798052-6fb7-4d7d-9d0c-f6524cbc75b8
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 74e7fdf1-1321-4e0c-8bbe-c844dbd99b73 # Collabs
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 56ac852a-f473-4e69-9a85-5e599a510e5f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 79ea7347-1aac-451b-810b-43db35ff5606 # Knop
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9246de72-5bb9-4a14-a1c1-9206777c04de
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 388192ed-7839-4081-8734-4125cc29ac90
+        userCondition: null
+fields:
+  4e729d7b-52c2-446c-9cd6-9421a5448802: # Titel
+    columnSuffix: shnhnkac
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Titel
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Heading.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  74e7fdf1-1321-4e0c-8bbe-c844dbd99b73: # Collabs
+    columnSuffix: tqzvelhy
+    contentColumnType: string
+    fieldGroup: null
+    handle: collabs
+    instructions: null
+    name: Collabs
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:a865a5dc-3cc1-4802-b651-f2a5bd0d5781' # Collabs
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  79ea7347-1aac-451b-810b-43db35ff5606: # Knop
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: linkIt
+    instructions: null
+    name: Knop
+    searchable: false
+    settings:
+      allowCustomText: true
+      allowTarget: true
+      autoNoReferrer: false
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: custom
+      defaultText: ''
+      enableAllLinkTypes: false
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: true
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+handle: collabs
+name: Collabs
+sortOrder: 5

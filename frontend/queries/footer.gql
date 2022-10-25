@@ -1,0 +1,13 @@
+query getFooter {
+  globalSets {
+    ... on footer_GlobalSet {
+      id
+      text
+      logo {
+        id
+        url
+        alt
+      }
+    }
+  }
+}

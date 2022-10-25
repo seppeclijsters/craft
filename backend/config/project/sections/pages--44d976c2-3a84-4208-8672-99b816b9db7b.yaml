@@ -1,0 +1,27 @@
+defaultPlacement: end
+enableVersioning: true
+handle: pages
+name: Pagina
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primaire invoer-pagina'
+      -
+        - urlFormat
+        - 'http://localhost:3000/{uri}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  19424c73-8f9f-4f98-9003-2f44d57c83df: # headless
+    enabledByDefault: true
+    hasUrls: true
+    template: index.twig
+    uriFormat: '{% if object.level == 1 %}{slug}{% else %}{parent.uri}/{slug}{% endif %}'
+structure:
+  maxLevels: null
+  uid: a6e11509-d5f6-45ff-a9f5-1aa7d07604f0
+type: structure

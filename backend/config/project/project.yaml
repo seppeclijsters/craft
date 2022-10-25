@@ -1,0 +1,275 @@
+dateModified: 1666701490
+elementSources:
+  craft\elements\Entry:
+    -
+      key: '*'
+      type: native
+    -
+      heading: Structuren
+      type: heading
+    -
+      disabled: false
+      key: 'section:44d976c2-3a84-4208-8672-99b816b9db7b' # Pagina
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+      type: native
+    -
+      heading: Kanalen
+      type: heading
+    -
+      disabled: false
+      key: 'section:a865a5dc-3cc1-4802-b651-f2a5bd0d5781' # Collabs
+      tableAttributes:
+        - postDate
+        - expiryDate
+        - author
+        - link
+      type: native
+    -
+      key: 'section:3b426d91-309c-438d-b343-a7367c46583e' # Vacatures
+      type: native
+    -
+      heading: Data
+      type: heading
+    -
+      key: 'section:4bcc69db-9747-4d53-9bf1-2f9e3c111797' # Kantoren
+      type: native
+    -
+      key: 'section:c72061bf-522e-4c3d-b805-35d995c5400f' # Collectief
+      type: native
+email:
+  fromEmail: vlemipi@cronos.be
+  fromName: headless
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  site:
+    hasUrls: true
+    name: Algemeen
+    settings:
+      path: '@assetsPath/uploads/site'
+    type: craft\fs\Local
+    url: '@assetsUrl/uploads/site/'
+meta:
+  __names__:
+    0ccebab6-cca9-4910-aa4c-f51d4fa00a00: 'Extra ruimte onderaan' # Extra ruimte onderaan
+    1babea0e-c93d-47e6-802a-860dcc9edac2: Tekst # Tekst
+    1bd66503-6935-4ec5-a1f8-da4a12f3152c: Skills # Skills
+    01e4d9b0-a4cc-477c-9d1d-aa2637ea181b: Collab # Collab
+    2eb4e774-ff0b-42d7-8537-3d4575900fa7: Woord # Woord
+    3a97b379-0c09-420f-b5c6-782fa4d146a8: Jobs # Jobs
+    3b426d91-309c-438d-b343-a7367c46583e: Vacatures # Vacatures
+    3c9e899f-8a88-4040-9887-343d0e1f3e7f: Knop # Knop
+    3d1f2d60-d2f3-4fa6-b7e3-9953e99780e6: Footer # Footer
+    03ed4caf-3656-45df-875d-9f517d91306a: '(beeld +) Tekst' # (beeld +) Tekst
+    4b3d046c-a1a4-4865-a71e-61237b3af867: 'Zwarte achtergrond' # Zwarte achtergrond
+    4bcc69db-9747-4d53-9bf1-2f9e3c111797: Kantoren # Kantoren
+    4d50b002-3b79-42d2-a4d6-f645c97846b6: 'Extra ruimte onderaan' # Extra ruimte onderaan
+    4e729d7b-52c2-446c-9cd6-9421a5448802: Titel # Titel
+    5be685a0-5c16-4c5c-8051-b49ad5170043: headless # headless
+    7a0703fc-03bb-4187-aea6-c188c84bc4cf: Formulier # Formulier
+    7b15125b-9680-4f08-b7ed-c137a86f06c4: Formulier # Formulier
+    7c935f76-0d6d-424f-a97d-d68d7315a7ef: Beeld # Beeld
+    7c278059-fdb6-4d2d-a235-3e331105d881: Text # Text
+    7cbe62a8-6114-4b67-b64b-71fc1edbdf7b: Cta-tekst # Cta-tekst
+    7e02bc36-2862-48ae-9a94-00b7a0b5dc95: 'Beeld positie' # Beeld positie
+    7ee216e3-4c36-4f23-9e91-0ceacf9a0b1d: Tekst-carrousel # Tekst-carrousel
+    7f1eb62f-009d-4895-b194-359c19882970: Logo # Logo
+    9a04a2c6-b160-4588-9089-7e23c4a18766: Pagina # Pagina
+    09a5b531-0ca3-48ec-97a6-74301b386aed: Pagina # Pagina
+    9ad0800b-a0ac-417f-a74b-53e85fb21507: Beeld # Beeld
+    09c272ba-5975-4445-9386-e2398b729462: Knop # Knop
+    16d75321-ee0c-4ae4-9308-9b7cf540d4d9: 'Digital Phanatics' # Digital Phanatics
+    16dc51f3-9ca4-4237-be79-8f2bbdae69a7: Titel # Titel
+    17b9048d-1f3d-4825-8cb3-629bec550606: Website # Website
+    19bc65f2-2fc5-4403-bca9-5b1760de161a: Tekst # Tekst
+    20f41f7d-16ab-41b9-9deb-7d4af6986002: Titel # Titel
+    23a27035-286f-4ff2-9ebe-de71ee25ccb3: Kantoren # Kantoren
+    25ad1ef3-4454-4516-a73e-5b19f8cb1c69: 'Toon in Bottommenu' # Toon in Bottommenu
+    30f51793-62fa-44bf-8a50-7832741889a3: Quote # Quote
+    38c12185-3648-42fd-b38b-2864978e8001: 'Call to action' # Call to action
+    40e81c7e-a385-4e57-9eee-0d8d52246f89: Titel # Titel
+    43a6af1b-ac9a-4cda-b7ac-9c6b0920ceb4: SuperTable # SuperTable
+    44d976c2-3a84-4208-8672-99b816b9db7b: Pagina # Pagina
+    46a6a41a-b2d0-459d-8de4-3cd8ddbe19d3: Tekst # Tekst
+    62a3bfe0-7846-4c77-85a2-c116ec10b585: Blokken # Blokken
+    74e7fdf1-1321-4e0c-8bbe-c844dbd99b73: Collabs # Collabs
+    077a4dbe-d9a4-4d57-8220-06091ae3c2f2: Tekst # Tekst
+    77f92785-9eee-4af9-97cb-a035eb60f37e: Beelden # Beelden
+    79ea7347-1aac-451b-810b-43db35ff5606: Knop # Knop
+    80d2a1e9-c14e-4a51-a30a-7ebf01eafa0e: Tekst # Tekst
+    85d4b8f8-b268-4937-9c07-2db6eff0d475: Beeld # Beeld
+    87a669b7-6f20-4145-b6be-dd645d5a56ef: 'Extra ruimte onderaan' # Extra ruimte onderaan
+    87b9e7dd-eee3-4c8c-b011-3c0b85377b29: Beeld # Beeld
+    88d3e059-4cdf-4f91-9fba-c2b8a580aced: Service # Service
+    88eb3c10-d547-4813-9cdd-7b6df3ab77c2: Block # Block
+    90d890b7-49a5-45a3-940c-7a1e1af874fa: Quote # Quote
+    95c644f3-1935-4405-8aec-6ed0d2536935: Tekst # Tekst
+    102fa2d9-d138-45a0-ad8b-ed6cdcfab2b3: Woorden # Woorden
+    195fe02c-023d-4732-b84f-68e0343c458d: 'Verwachte niveau' # Verwachte niveau
+    0224e135-f12a-4279-abfa-336e0fdaaaa3: Jobs # Jobs
+    360f9e5a-8f0b-4250-a0a9-908ffba8cae7: Draai-richting # Draai-richting
+    386f1e6a-81f1-4735-b7b1-6ebd8ca1db4d: Titel # Titel
+    400ef0fd-fa36-4ff9-ab32-f392803ca3c7: Tekst # Tekst
+    415a1c55-0354-4bdc-a43a-5b5bd600cb25: Titel # Titel
+    432cafcd-9d3b-4780-a696-4f52c651f7bb: Inhoud # Inhoud
+    456b181c-ee99-4207-b4a6-47bfed66b369: 'Public Schema' # Public Schema
+    646c2f9a-1d22-4856-b07e-8bbd9447941f: Tekst # Tekst
+    675b6095-e701-43de-9769-1e3f3970d511: Knop # Knop
+    709bd7f3-74c2-4300-a80a-d2cb773a23fa: Beeld # Beeld
+    823d86eb-4180-447d-95d8-747ecab4f8a2: Kantoren # Kantoren
+    1545c18a-e68a-428d-a67f-1ea86b6bf0b6: Vacature # Vacature
+    1720d2da-527c-46da-9c9d-a96757c4a61d: Lightswitch # Lightswitch
+    1862ccde-8c33-42aa-b21a-02ceb47f12b6: Tekst # Tekst
+    3770caa3-addf-4c50-b0fc-6477ec005b60: Common # Common
+    4346eb99-871c-4a8b-b58e-0a8fde5a3f27: Beeld # Beeld
+    6961c579-3e76-499e-a4d3-c5873a377386: Link # Link
+    9008cd2f-b146-48cf-9444-822947608729: Jobs # Jobs
+    19424c73-8f9f-4f98-9003-2f44d57c83df: headless # headless
+    28490f3d-f2e8-4b44-a79e-3a2bcfc995e0: 'Toon in hoofdmenu' # Toon in hoofdmenu
+    31185a1e-d632-4cc2-8236-db72839ce932: SEO # SEO
+    40256b79-639d-4ff4-ae7b-8531284b396e: Skill # Skill
+    045812dd-fa28-4a27-a532-2a113edcfd97: Tekst # Tekst
+    56779c0f-6a5b-4326-8af2-aa88a6f4100c: Matrix # Matrix
+    70171e76-bc30-446f-996a-eb2cf7317e3b: 'Contact Form' # Contact Form
+    71616ef0-bc70-4041-ac19-3ad0083317a8: 'Call to action' # Call to action
+    82387cb5-e2f4-4070-9509-e084a9386f68: Collabs # Collabs
+    192488b1-8cfa-4cf0-8a12-42e66077fc64: New # New
+    691728a2-991e-4d51-96a0-10207ee96b79: Seo # Seo
+    719845d1-cf1f-40a2-be58-7a3f26d77957: Images # Images
+    763749ef-6918-4d6a-a49c-9001cb31f694: Knop # Knop
+    06334925-c511-4dc9-a48c-c9765afb0b05: Collectief # Collectief
+    8942454e-dc0a-4aff-bc66-283f4a3b5689: Bedrijven # Bedrijven
+    10052115-32b0-409e-8e6b-128d68e49b71: Bedrijf # Bedrijf
+    11132693-48c5-4573-9509-462841e28f55: Form # Form
+    47893819-5613-4bd5-8a73-35801a65acdd: Intro # Intro
+    98812603-8a91-48c3-a678-76e5bfc4cfd8: 'Zwarte achtergrond' # Zwarte achtergrond
+    a4cce798-a077-453a-a267-fe63a29bc11a: Collabs # Collabs
+    a5c7159a-8ff8-4761-95f0-c8ece3954058: Titel # Titel
+    a8df5ada-704f-4a20-90ac-d1de65269712: Titel # Titel
+    a254e77b-641d-4d00-9a08-81eac5af118e: Collabs # Collabs
+    a865a5dc-3cc1-4802-b651-f2a5bd0d5781: Collabs # Collabs
+    a1119b45-b804-4753-9b46-8c1bf89b6a9c: Naam # Naam
+    a83849e3-7a36-4029-a92b-ca512f6ad1b0: Titel # Titel
+    acfb677e-de44-4b37-a9b5-b70e3baec439: Beeld # Beeld
+    b0ab1821-653b-42f8-b605-521f17f18cc7: Website # Website
+    b3a7b712-bb5a-410d-a4d7-04a64edf1a1c: 'Sociale media' # Sociale media
+    b6d582a0-3708-4eb2-a97a-137733798c96: 'Toon in footermenu' # Toon in footermenu
+    b7d1bd1d-e1c6-433e-8ac6-314bd1c313fc: Achtergrond # Achtergrond
+    b8e95f72-2bd7-49de-84d0-52ee6ad15163: Profiel-url # Profiel-url
+    b11d88c5-2486-42e4-a196-59df893ea602: Beelden-slider # Beelden-slider
+    b792e4fd-4319-4b69-b954-2ef25d2475ba: Contact # Contact
+    b9498107-857e-45cf-a39e-e86617807bb8: Intro # Intro
+    ba805e6c-dd28-4bbc-a842-850d6cc1626f: 'Grootte Titel' # Grootte Titel
+    be21b72c-0bc0-4469-ac04-9ff476dc1d9f: Tekst # Tekst
+    bf20018e-0616-45f9-856c-a25154d6c313: Services # Services
+    c3fca044-769a-44ed-a8d5-a7bc5aa224e9: Beeld # Beeld
+    c21e1ddc-b672-4340-b54b-5dea3e1ec038: Opsommingsgrid # Opsommingsgrid
+    c66e7a55-fab4-442e-8c45-c40e102fcc76: Platform # Platform
+    c530caba-c84d-4427-b085-7516b737a41c: Kantoor # Kantoor
+    c72061bf-522e-4c3d-b805-35d995c5400f: Collectief # Collectief
+    c721101d-e94c-4173-bf35-157876a59aa9: Algemeen # Algemeen
+    ca2128a1-d5cf-4e46-9de7-1219feaccf0f: Knop # Knop
+    cb1ed8b0-56ba-41ef-8b55-c58c17a7dde1: Kantoor # Kantoor
+    cb2e6487-8ae4-44d9-ac29-c74b16f41e3a: Jobinfo # Jobinfo
+    cc62912b-c8f8-41f3-8983-bc845a547949: Titel # Titel
+    cce12c46-fd32-4504-8a97-800b29f73fd6: Tekst # Tekst
+    d0f4ada2-0e69-4b2e-b018-9a95519e5ec9: Test # Test
+    d1f3072b-4d49-44e4-a98a-ceef69153b96: Beeld # Beeld
+    d3d41427-335c-435c-8b83-333bd4f59fb8: Adres # Adres
+    d4b17761-fcb0-41b3-b7d5-eaf8b6b920c7: Subtitel # Subtitel
+    d8ffc608-ab7f-43d9-b1be-94b59f1ed615: 'Google maps link' # Google maps link
+    d763e1fb-8e34-4de9-9b60-06000329c7a4: Titel # Titel
+    e1ae8cdf-4918-4157-9ce0-6bc4c5cf991b: Knop # Knop
+    e6e0f17a-3986-4505-8d3e-93f07374d0ea: Services # Services
+    e31f6314-d483-46b7-bdc2-9aeb007ccfa6: Knop # Knop
+    e73be628-475c-4acd-aec3-52dc2878baad: 'Extra ruimte onderaan' # Extra ruimte onderaan
+    e3263a02-c6fe-44b8-88ab-4b7956e9fad3: 'Beeld in de achtergrond' # Beeld in de achtergrond
+    e1958551-30e4-4e0e-b31b-c6c87f23ae55: Knop # Knop
+    ec596614-51f7-4d59-87f3-40469b369494: Tekst # Tekst
+    ee2c70e6-f961-474b-b436-4895af1e002b: Formulier # Formulier
+    f6b3aec1-0f51-46af-8931-cc3af3fb4170: Beeld # Beeld
+    f24c4411-5f9c-453c-aa17-c4ce3e2e8a49: Naam # Naam
+    f93b2c29-e662-4362-a460-068860fbda12: Knop # Knop
+    f512c423-925b-4db3-9ceb-abee7ede999a: Details # Details
+    f7134ca0-66a6-45e0-afac-a72ec9a33829: Knop # Knop
+    f382644f-65f9-4f24-804f-cf9b80695b03: 'Footer Inhoud' # Footer Inhoud
+    f447047b-1af6-486e-a38a-160043fb5248: Home # Home
+    faf7f74a-cc04-4537-b256-838184d98278: 'Disclaimer page' # Disclaimer page
+    ff932c0c-7d20-45a6-8473-94b61902dec6: 'Extra ruimte onderaan' # Extra ruimte onderaan
+plugins:
+  formie:
+    edition: standard
+    enabled: true
+    licenseKey: 6JBSD7UEHONY7DACNXBE1SLL
+    schemaVersion: 2.0.8
+    settings:
+      ajaxTimeout: 10
+      alertEmails: null
+      defaultDateDisplayType: calendar
+      defaultDateTime: null
+      defaultDateValueOption: ''
+      defaultEmailTemplate: ''
+      defaultFileUploadVolume: ''
+      defaultFormTemplate: ''
+      defaultInstructionsPosition: verbb\formie\positions\AboveInput
+      defaultLabelPosition: verbb\formie\positions\AboveInput
+      defaultPage: forms
+      enableBackSubmission: true
+      enableCsrfValidationForGuests: true
+      enableUnloadWarning: true
+      maxIncompleteSubmissionAge: 30
+      maxSentNotificationsAge: 30
+      pdfPaperOrientation: portrait
+      pdfPaperSize: letter
+      pluginName: Formulieren
+      queuePriority: null
+      saveSpam: true
+      sendEmailAlerts: false
+      sentNotifications: true
+      spamBehaviour: showSuccess
+      spamBehaviourMessage: ''
+      spamEmailNotifications: false
+      spamKeywords: ''
+      spamLimit: 500
+      useQueueForIntegrations: true
+      useQueueForNotifications: true
+  matrixmate:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  position-fieldtype:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  redactor:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.3.0
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: 21RN72L9BUIUEVW5OCGUY89S
+    schemaVersion: 3.0.11
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  typedlinkfield:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.0.0
+system:
+  edition: pro
+  live: true
+  name: headless
+  schemaVersion: 4.0.0.9
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

@@ -1,0 +1,218 @@
+field: cb2e6487-8ae4-44d9-ac29-c74b16f41e3a # Jobinfo
+fieldLayouts:
+  d7e09c72-0a9d-494e-8cfa-45ad5266c378:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 40e81c7e-a385-4e57-9eee-0d8d52246f89 # Titel
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3d469366-b8f5-489b-bc68-ad3d214a0521
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b9498107-857e-45cf-a39e-e86617807bb8 # Intro
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 684d8d46-9c6b-4f9f-9270-e3f8e11f349f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: cb1ed8b0-56ba-41ef-8b55-c58c17a7dde1 # Kantoor
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3ac6ea30-6271-43c3-8e1d-c7f0c7f7b287
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f6b3aec1-0f51-46af-8931-cc3af3fb4170 # Beeld
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 83fafe4e-8f59-46a4-a00e-ba751adce464
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1bd66503-6935-4ec5-a1f8-da4a12f3152c # Skills
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: cbeeb9e2-bfaa-4e89-a62e-74ad1d94c358
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 02eacee7-ba74-47d3-89a3-9b9a582adc4d
+        userCondition: null
+fields:
+  1bd66503-6935-4ec5-a1f8-da4a12f3152c: # Skills
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: skills
+    instructions: null
+    name: Skills
+    searchable: false
+    settings:
+      contentTable: '{{%matrixcontent_skills}}'
+      maxBlocks: null
+      minBlocks: null
+      propagationKeyFormat: null
+      propagationMethod: all
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix
+  40e81c7e-a385-4e57-9eee-0d8d52246f89: # Titel
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Titel
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  b9498107-857e-45cf-a39e-e86617807bb8: # Intro
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Intro
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: null
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  cb1ed8b0-56ba-41ef-8b55-c58c17a7dde1: # Kantoor
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: offices
+    instructions: null
+    name: Kantoor
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:4bcc69db-9747-4d53-9bf1-2f9e3c111797' # Kantoren
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  f6b3aec1-0f51-46af-8931-cc3af3fb4170: # Beeld
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: null
+    name: Beeld
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowSubfolders: false
+      allowUploads: true
+      allowedKinds: null
+      defaultUploadLocationSource: 'volume:c721101d-e94c-4173-bf35-157876a59aa9' # Algemeen
+      defaultUploadLocationSubpath: null
+      localizeRelations: false
+      maxRelations: 1
+      minRelations: null
+      previewMode: full
+      restrictFiles: false
+      restrictLocation: false
+      restrictedDefaultUploadSubpath: null
+      restrictedLocationSource: 'volume:c721101d-e94c-4173-bf35-157876a59aa9' # Algemeen
+      restrictedLocationSubpath: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Asset
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\assets\AssetCondition
+      selectionLabel: null
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      source: null
+      sources: '*'
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets

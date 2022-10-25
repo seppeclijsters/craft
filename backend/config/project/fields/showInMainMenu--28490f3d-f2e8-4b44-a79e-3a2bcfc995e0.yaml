@@ -1,0 +1,14 @@
+columnSuffix: saopkcuq
+contentColumnType: boolean
+fieldGroup: 1720d2da-527c-46da-9c9d-a96757c4a61d # Lightswitch
+handle: showInMainMenu
+instructions: null
+name: 'Toon in hoofdmenu'
+searchable: false
+settings:
+  default: false
+  offLabel: Neen
+  onLabel: Ja
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

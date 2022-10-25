@@ -1,0 +1,43 @@
+field: 102fa2d9-d138-45a0-ad8b-ed6cdcfab2b3 # Woorden
+fieldLayouts:
+  938d203c-88cd-4747-b5f1-816d85d6ec64:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 2eb4e774-ff0b-42d7-8537-3d4575900fa7 # Woord
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 65de774f-bc31-4252-9aab-3f1e185b98ea
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 08b31e8b-f4b2-4700-8f39-04b3412fcf72
+        userCondition: null
+fields:
+  2eb4e774-ff0b-42d7-8537-3d4575900fa7: # Woord
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: word
+    instructions: null
+    name: Woord
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

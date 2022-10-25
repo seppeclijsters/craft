@@ -1,0 +1,31 @@
+query getPosts($section: [String] = "jobs", $limit: Int = 5) {
+  entries(section: $section, limit: $limit) {
+    title
+    slug
+    id
+    typeHandle
+    ... on jobs_job_Entry {
+      headerBgImage {
+        id
+        url
+        alt
+      }
+      jobInfo {
+        ... on jobInfo_BlockType {
+          id
+          heading
+          text
+          offices {
+            id
+          }
+          image {
+            id
+          }
+        }
+      }
+      contentGrid {
+        ...matrixFields
+      }
+    }
+  }
+}

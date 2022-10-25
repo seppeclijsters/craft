@@ -1,0 +1,145 @@
+fieldLayouts:
+  c746dcd1-5daf-4710-9baf-96434dd2b1c3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 74bb5ac7-c04a-44d6-9e2d-93750137e04e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 19bc65f2-2fc5-4403-bca9-5b1760de161a # Tekst
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e9ab1f93-b94a-45a0-bd88-11b300f05b75
+            userCondition: null
+            warning: null
+            width: 100
+        name: Header
+        uid: f49a1765-8763-4d8c-b1d2-f3773c511944
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a254e77b-641d-4d00-9a08-81eac5af118e # Collabs
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9a9de419-735d-40ac-a630-9bdd5a22807c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 432cafcd-9d3b-4780-a696-4f52c651f7bb # Inhoud
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 927cda89-e08f-41f6-a2e2-69f733befffb
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 1e3032b6-e0a1-4b42-ad66-9446c681c0a8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 28490f3d-f2e8-4b44-a79e-3a2bcfc995e0 # Toon in hoofdmenu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7a7acee8-410a-42e1-b242-fad64d6a75b4
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b6d582a0-3708-4eb2-a97a-137733798c96 # Toon in footermenu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7cb64ab7-b516-4d88-a9c7-95514578d92e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 25ad1ef3-4454-4516-a73e-5b19f8cb1c69 # Toon in Bottommenu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3c24a2ce-9c7f-4399-8042-868780a5b723
+            userCondition: null
+            warning: null
+            width: 100
+        name: Instellingen
+        uid: 6429d425-882b-4f39-a2ce-821e5d70a57d
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 31185a1e-d632-4cc2-8236-db72839ce932 # SEO
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8f16e024-e354-4a18-afac-69bb3c7c0ab8
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 3e8f19b4-a2a7-4f96-9b26-9736412b281b
+        userCondition: null
+handle: collabList
+hasTitleField: true
+name: Collabs
+section: 44d976c2-3a84-4208-8672-99b816b9db7b # Pagina
+sortOrder: 4
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

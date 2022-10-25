@@ -1,0 +1,91 @@
+fieldLayouts:
+  80448ae4-95e2-443b-852b-3c47cafe473e:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 10c93de4-2e37-46fe-a7da-8f60f56e4d32
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 9ad0800b-a0ac-417f-a74b-53e85fb21507 # Beeld
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1585323c-8f77-4c46-8805-4e6651a1077d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1babea0e-c93d-47e6-802a-860dcc9edac2 # Tekst
+            instructions: null
+            label: service
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2722c8d6-7db2-4ae1-bc47-c917efae0d71
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 44f6f73c-9335-4c69-893f-19663909a834
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 039efbb8-a8d9-40a8-9974-dd29cc3abef0
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b0ab1821-653b-42f8-b605-521f17f18cc7 # Website
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8d3535bf-6a03-4063-b202-aa0fe90e1862
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: e848c392-d064-49a6-a39d-9dc8ce45bb31
+        userCondition: null
+handle: Company
+hasTitleField: true
+name: Bedrijf
+section: c72061bf-522e-4c3d-b805-35d995c5400f # Collectief
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

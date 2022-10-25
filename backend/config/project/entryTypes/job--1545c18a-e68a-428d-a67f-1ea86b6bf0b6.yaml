@@ -1,0 +1,145 @@
+fieldLayouts:
+  4f0003ea-4535-4210-af8a-0d0dcf738ec5:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 200d2eaa-81a5-486d-8fcc-aa078adcdc3a
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e3263a02-c6fe-44b8-88ab-4b7956e9fad3 # Beeld in de achtergrond
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fed8ed18-5a70-4b63-9d4b-a6dd508dcfba
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e1958551-30e4-4e0e-b31b-c6c87f23ae55 # Knop
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fd54ecb9-0929-4356-aa46-7866b36d6570
+            userCondition: null
+            warning: null
+            width: 100
+        name: Header
+        uid: c58bab37-9abd-4126-a319-0599125521f8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: cb2e6487-8ae4-44d9-ac29-c74b16f41e3a # Jobinfo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7beefc19-5199-408d-9d88-9e1a2ce0c781
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 432cafcd-9d3b-4780-a696-4f52c651f7bb # Inhoud
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f88cdc31-f859-4009-8ca1-d8ad50e42cd4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 6b74ac03-4f70-43a0-8e0b-9598767ad6c6
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c3fca044-769a-44ed-a8d5-a7bc5aa224e9 # Beeld
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 32520992-8bb4-4c49-89eb-3ab9fc8e89f9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ec596614-51f7-4d59-87f3-40469b369494 # Tekst
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 1c70befa-a707-446e-816f-767a58d055bc
+            userCondition: null
+            warning: null
+            width: 100
+        name: Snippet
+        uid: e97b18fd-e03e-44d7-83bf-f7b2ffb3c56c
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 31185a1e-d632-4cc2-8236-db72839ce932 # SEO
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d708ebde-df27-4046-8036-a2a9e4651ac6
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: bde50aca-37d8-4491-b49d-56eb1360c02b
+        userCondition: null
+handle: job
+hasTitleField: true
+name: Vacature
+section: 3b426d91-309c-438d-b343-a7367c46583e # Vacatures
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

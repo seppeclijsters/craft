@@ -1,0 +1,72 @@
+isPublic: true
+name: 'Public Schema'
+scope:
+  - 'sites.19424c73-8f9f-4f98-9003-2f44d57c83df:read' # headless
+  - 'elements.drafts:read'
+  - 'elements.revisions:read'
+  - 'elements.inactive:read'
+  - 'sections.a865a5dc-3cc1-4802-b651-f2a5bd0d5781:read' # Collabs
+  - 'entrytypes.01e4d9b0-a4cc-477c-9d1d-aa2637ea181b:read' # Collab
+  - 'sections.c72061bf-522e-4c3d-b805-35d995c5400f:read' # Collectief
+  - 'entrytypes.10052115-32b0-409e-8e6b-128d68e49b71:read' # Bedrijf
+  - 'sections.4bcc69db-9747-4d53-9bf1-2f9e3c111797:read' # Kantoren
+  - 'entrytypes.c530caba-c84d-4427-b085-7516b737a41c:read' # Kantoor
+  - 'sections.44d976c2-3a84-4208-8672-99b816b9db7b:read' # Pagina
+  - 'entrytypes.9a04a2c6-b160-4588-9089-7e23c4a18766:read' # Pagina
+  - 'entrytypes.b792e4fd-4319-4b69-b954-2ef25d2475ba:read' # Contact
+  - 'entrytypes.f447047b-1af6-486e-a38a-160043fb5248:read' # Home
+  - 'entrytypes.faf7f74a-cc04-4537-b256-838184d98278:read' # Disclaimer page
+  - 'entrytypes.82387cb5-e2f4-4070-9509-e084a9386f68:read' # Collabs
+  - 'sections.3b426d91-309c-438d-b343-a7367c46583e:read' # Vacatures
+  - 'entrytypes.1545c18a-e68a-428d-a67f-1ea86b6bf0b6:read' # Vacature
+  - 'volumes.c721101d-e94c-4173-bf35-157876a59aa9:read' # Algemeen
+  - 'globalsets.3d1f2d60-d2f3-4fa6-b7e3-9953e99780e6:read' # Footer
+  - 'formieForms.all:read'
+  - 'formieSubmissions.all:read'
+  - 'seomatic.all:read'
+  - 'sections.a865a5dc-3cc1-4802-b651-f2a5bd0d5781:edit' # Collabs
+  - 'entrytypes.01e4d9b0-a4cc-477c-9d1d-aa2637ea181b:edit' # Collab
+  - 'entrytypes.01e4d9b0-a4cc-477c-9d1d-aa2637ea181b:create' # Collab
+  - 'entrytypes.01e4d9b0-a4cc-477c-9d1d-aa2637ea181b:save' # Collab
+  - 'entrytypes.01e4d9b0-a4cc-477c-9d1d-aa2637ea181b:delete' # Collab
+  - 'sections.c72061bf-522e-4c3d-b805-35d995c5400f:edit' # Collectief
+  - 'entrytypes.10052115-32b0-409e-8e6b-128d68e49b71:edit' # Bedrijf
+  - 'entrytypes.10052115-32b0-409e-8e6b-128d68e49b71:create' # Bedrijf
+  - 'entrytypes.10052115-32b0-409e-8e6b-128d68e49b71:save' # Bedrijf
+  - 'entrytypes.10052115-32b0-409e-8e6b-128d68e49b71:delete' # Bedrijf
+  - 'sections.4bcc69db-9747-4d53-9bf1-2f9e3c111797:edit' # Kantoren
+  - 'entrytypes.c530caba-c84d-4427-b085-7516b737a41c:edit' # Kantoor
+  - 'entrytypes.c530caba-c84d-4427-b085-7516b737a41c:create' # Kantoor
+  - 'entrytypes.c530caba-c84d-4427-b085-7516b737a41c:save' # Kantoor
+  - 'entrytypes.c530caba-c84d-4427-b085-7516b737a41c:delete' # Kantoor
+  - 'sections.44d976c2-3a84-4208-8672-99b816b9db7b:edit' # Pagina
+  - 'entrytypes.9a04a2c6-b160-4588-9089-7e23c4a18766:edit' # Pagina
+  - 'entrytypes.9a04a2c6-b160-4588-9089-7e23c4a18766:create' # Pagina
+  - 'entrytypes.9a04a2c6-b160-4588-9089-7e23c4a18766:save' # Pagina
+  - 'entrytypes.9a04a2c6-b160-4588-9089-7e23c4a18766:delete' # Pagina
+  - 'entrytypes.b792e4fd-4319-4b69-b954-2ef25d2475ba:edit' # Contact
+  - 'entrytypes.b792e4fd-4319-4b69-b954-2ef25d2475ba:create' # Contact
+  - 'entrytypes.b792e4fd-4319-4b69-b954-2ef25d2475ba:save' # Contact
+  - 'entrytypes.b792e4fd-4319-4b69-b954-2ef25d2475ba:delete' # Contact
+  - 'entrytypes.f447047b-1af6-486e-a38a-160043fb5248:edit' # Home
+  - 'entrytypes.f447047b-1af6-486e-a38a-160043fb5248:create' # Home
+  - 'entrytypes.f447047b-1af6-486e-a38a-160043fb5248:save' # Home
+  - 'entrytypes.f447047b-1af6-486e-a38a-160043fb5248:delete' # Home
+  - 'entrytypes.faf7f74a-cc04-4537-b256-838184d98278:edit' # Disclaimer page
+  - 'entrytypes.faf7f74a-cc04-4537-b256-838184d98278:create' # Disclaimer page
+  - 'entrytypes.faf7f74a-cc04-4537-b256-838184d98278:save' # Disclaimer page
+  - 'entrytypes.faf7f74a-cc04-4537-b256-838184d98278:delete' # Disclaimer page
+  - 'entrytypes.82387cb5-e2f4-4070-9509-e084a9386f68:edit' # Collabs
+  - 'entrytypes.82387cb5-e2f4-4070-9509-e084a9386f68:create' # Collabs
+  - 'entrytypes.82387cb5-e2f4-4070-9509-e084a9386f68:save' # Collabs
+  - 'entrytypes.82387cb5-e2f4-4070-9509-e084a9386f68:delete' # Collabs
+  - 'sections.3b426d91-309c-438d-b343-a7367c46583e:edit' # Vacatures
+  - 'entrytypes.1545c18a-e68a-428d-a67f-1ea86b6bf0b6:edit' # Vacature
+  - 'entrytypes.1545c18a-e68a-428d-a67f-1ea86b6bf0b6:create' # Vacature
+  - 'entrytypes.1545c18a-e68a-428d-a67f-1ea86b6bf0b6:save' # Vacature
+  - 'entrytypes.1545c18a-e68a-428d-a67f-1ea86b6bf0b6:delete' # Vacature
+  - 'globalsets.3d1f2d60-d2f3-4fa6-b7e3-9953e99780e6:edit' # Footer
+  - 'formieSubmissions.all:edit'
+  - 'formieSubmissions.all:create'
+  - 'formieSubmissions.all:save'
+  - 'formieSubmissions.all:delete'

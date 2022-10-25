@@ -1,0 +1,66 @@
+fieldLayouts:
+  04df5025-40f9-4087-b028-841646a251f6:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AssetTitleField
+            uid: 379295e8-ce21-456d-a6c4-a11e5b505180
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            attribute: alt
+            class: null
+            cols: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: true
+            required: false
+            rows: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\assets\AltField
+            uid: 08cfb01b-ffe8-480b-9eb2-bdf00257aa5f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 733b6e8e-953f-4385-81d5-7331d2f3c45b
+        userCondition: null
+fs: site
+handle: siteGeneral
+name: Algemeen
+sortOrder: 1
+titleTranslationKeyFormat: null
+titleTranslationMethod: site
+transformFs: site
+transformSubpath: ''

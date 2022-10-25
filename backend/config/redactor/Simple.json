@@ -1,0 +1,10 @@
+{
+  "plugins": ["fontcolor"],
+  "buttons": [
+    "html", 
+    "bold", 
+    "italic"
+  ],
+  "fontcolors": ["#F2396B"],
+  "toolbarFixed": true
+}

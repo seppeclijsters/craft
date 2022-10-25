@@ -1,0 +1,169 @@
+fieldLayouts:
+  75b5baba-44db-4ddb-8821-766c35918494:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: fe4288a9-6bd4-4805-8c2c-02f39e2d9e60
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 709bd7f3-74c2-4300-a80a-d2cb773a23fa # Beeld
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0165424b-f283-457e-ad89-2f8b4f5cf0d3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 20f41f7d-16ab-41b9-9deb-7d4af6986002 # Titel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 67d78768-f7ba-4a6e-8545-8c96411f373f
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d4b17761-fcb0-41b3-b7d5-eaf8b6b920c7 # Subtitel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0c56b7f6-2586-43a2-833b-9110173e4550
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 19bc65f2-2fc5-4403-bca9-5b1760de161a # Tekst
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 958f6389-de5c-442c-98c3-5754cf326a22
+            userCondition: null
+            warning: null
+            width: 100
+        name: Header
+        uid: e6a70a38-52cf-42bc-bc48-7f283c8caf69
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f512c423-925b-4db3-9ceb-abee7ede999a # Details
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 56365d78-238f-410a-8e1b-ae069d923480
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 432cafcd-9d3b-4780-a696-4f52c651f7bb # Inhoud
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b26fe400-d89e-4a90-848e-a09d3114ecc7
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 7763d556-5102-48dc-8aa8-7ad5b6f16992
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c3fca044-769a-44ed-a8d5-a7bc5aa224e9 # Beeld
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4cd851fa-e1f8-465e-a96d-4474adfc6f38
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 646c2f9a-1d22-4856-b07e-8bbd9447941f # Tekst
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3bf16107-d6e6-4f92-83cf-b135429da241
+            userCondition: null
+            warning: null
+            width: 100
+        name: Snippet
+        uid: 84401e17-6a14-499f-ac7d-e4353c183cb1
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 31185a1e-d632-4cc2-8236-db72839ce932 # SEO
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 7ed6bb7e-a085-44b7-92d4-6188e9505386
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 42bc01a9-d18f-4e02-b598-de724334c8b2
+        userCondition: null
+handle: collab
+hasTitleField: true
+name: Collab
+section: a865a5dc-3cc1-4802-b651-f2a5bd0d5781 # Collabs
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

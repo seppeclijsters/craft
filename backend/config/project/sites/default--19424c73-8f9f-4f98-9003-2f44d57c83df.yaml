@@ -1,0 +1,9 @@
+baseUrl: $PRIMARY_SITE_URL
+enabled: true
+handle: default
+hasUrls: true
+language: nl
+name: headless
+primary: true
+siteGroup: 5be685a0-5c16-4c5c-8051-b49ad5170043 # headless
+sortOrder: 1

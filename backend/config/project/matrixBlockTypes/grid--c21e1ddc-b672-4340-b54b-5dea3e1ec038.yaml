@@ -1,0 +1,145 @@
+field: 432cafcd-9d3b-4780-a696-4f52c651f7bb # Inhoud
+fieldLayouts:
+  430be8f3-6b11-453f-b611-7da43f346c50:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 62a3bfe0-7846-4c77-85a2-c116ec10b585 # Blokken
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a9a0be42-b86c-4390-b4d1-f4e9bec4931b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: ba805e6c-dd28-4bbc-a842-850d6cc1626f # Grootte Titel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2efb6629-ed79-4375-a749-234d39e519e3
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 98812603-8a91-48c3-a678-76e5bfc4cfd8 # Zwarte achtergrond
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d007a895-702f-456f-ba87-093170a3271d
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 0ccebab6-cca9-4910-aa4c-f51d4fa00a00 # Extra ruimte onderaan
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4301c409-7ce4-4942-a9cc-a4de26751265
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 3e9b75b6-e909-4e54-87df-72caf48aade4
+        userCondition: null
+fields:
+  0ccebab6-cca9-4910-aa4c-f51d4fa00a00: # Extra ruimte onderaan
+    columnSuffix: xcwfbjag
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: marginBottom
+    instructions: null
+    name: 'Extra ruimte onderaan'
+    searchable: false
+    settings:
+      default: false
+      offLabel: Verbergen
+      onLabel: Tonen
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  62a3bfe0-7846-4c77-85a2-c116ec10b585: # Blokken
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: blocks
+    instructions: null
+    name: Blokken
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 1256051630
+      columns:
+        __assoc__:
+          -
+            - 16dc51f3-9ca4-4237-be79-8f2bbdae69a7 # Titel
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 80d2a1e9-c14e-4a51-a30a-7ebf01eafa0e # Tekst
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_4_blocks}}'
+      fieldLayout: row
+      maxRows: 3
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  98812603-8a91-48c3-a678-76e5bfc4cfd8: # Zwarte achtergrond
+    columnSuffix: qbyrnklz
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: bgColor
+    instructions: null
+    name: 'Zwarte achtergrond'
+    searchable: false
+    settings:
+      default: false
+      offLabel: Wit
+      onLabel: Zwart
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  ba805e6c-dd28-4bbc-a842-850d6cc1626f: # Grootte Titel
+    columnSuffix: nwmpxjwz
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: titleSize
+    instructions: null
+    name: 'Grootte Titel'
+    searchable: false
+    settings:
+      default: false
+      offLabel: Normaal
+      onLabel: Groot
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+handle: grid
+name: Opsommingsgrid
+sortOrder: 4

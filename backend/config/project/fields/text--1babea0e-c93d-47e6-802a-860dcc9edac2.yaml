@@ -1,0 +1,19 @@
+columnSuffix: woklpawq
+contentColumnType: text
+fieldGroup: 7c278059-fdb6-4d2d-a235-3e331105d881 # Text
+handle: text
+instructions: null
+name: Tekst
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

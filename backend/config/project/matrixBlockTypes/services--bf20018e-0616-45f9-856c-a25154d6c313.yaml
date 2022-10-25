@@ -1,0 +1,206 @@
+field: 432cafcd-9d3b-4780-a696-4f52c651f7bb # Inhoud
+fieldLayouts:
+  2ccb5814-9621-413c-9159-43b5fa010be4:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 415a1c55-0354-4bdc-a43a-5b5bd600cb25 # Titel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: aa91dda2-0ac2-4b29-b229-0a34de8f4c1c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: e6e0f17a-3986-4505-8d3e-93f07374d0ea # Services
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9722be63-605a-4137-8a32-fdef335c91bd
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: f7134ca0-66a6-45e0-afac-a72ec9a33829 # Knop
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d5f9a10b-cbf2-4f49-94f5-9505e0f5f550
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 4d50b002-3b79-42d2-a4d6-f645c97846b6 # Extra ruimte onderaan
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a5156e2b-a12a-459e-84ed-1651c50674e5
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 62670fec-796e-4b37-8985-5dbebdd20b4a
+        userCondition: null
+fields:
+  4d50b002-3b79-42d2-a4d6-f645c97846b6: # Extra ruimte onderaan
+    columnSuffix: oiwpfdsr
+    contentColumnType: boolean
+    fieldGroup: null
+    handle: marginBottom
+    instructions: null
+    name: 'Extra ruimte onderaan'
+    searchable: false
+    settings:
+      default: true
+      offLabel: Verbergen
+      onLabel: Tonen
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Lightswitch
+  415a1c55-0354-4bdc-a43a-5b5bd600cb25: # Titel
+    columnSuffix: bzeowihz
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Titel
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Heading.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+  e6e0f17a-3986-4505-8d3e-93f07374d0ea: # Services
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: services
+    instructions: null
+    name: Services
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 862186183
+      columns:
+        __assoc__:
+          -
+            - 386f1e6a-81f1-4735-b7b1-6ebd8ca1db4d # Titel
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+          -
+            - 045812dd-fa28-4a27-a532-2a113edcfd97 # Tekst
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_7_services}}'
+      fieldLayout: row
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  f7134ca0-66a6-45e0-afac-a72ec9a33829: # Knop
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: linkIt
+    instructions: null
+    name: Knop
+    searchable: false
+    settings:
+      allowCustomText: true
+      allowTarget: true
+      autoNoReferrer: false
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: custom
+      defaultText: ''
+      enableAllLinkTypes: false
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: true
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+handle: services
+name: Services
+sortOrder: 7

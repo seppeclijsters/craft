@@ -1,0 +1,104 @@
+field: 432cafcd-9d3b-4780-a696-4f52c651f7bb # Inhoud
+fieldLayouts:
+  16fc9f6f-c56e-482b-92e1-65932ba36f8d:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 102fa2d9-d138-45a0-ad8b-ed6cdcfab2b3 # Woorden
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: f109c346-bad3-49a3-b35f-7b319e449a25
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 360f9e5a-8f0b-4250-a0a9-908ffba8cae7 # Draai-richting
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 07afccda-b941-4d70-9a64-eccf3b51d19f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 77d03efb-68c9-44c3-a5b4-e712be43aba4
+        userCondition: null
+fields:
+  102fa2d9-d138-45a0-ad8b-ed6cdcfab2b3: # Woorden
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: words
+    instructions: null
+    name: Woorden
+    searchable: false
+    settings:
+      blockTypeFields: 0
+      changedFieldIndicator: 1350307096
+      columns:
+        __assoc__:
+          -
+            - 2eb4e774-ff0b-42d7-8537-3d4575900fa7 # Woord
+            -
+              __assoc__:
+                -
+                  - width
+                  - ''
+      contentTable: '{{%stc_11_words}}'
+      fieldLayout: table
+      maxRows: null
+      minRows: null
+      propagationKeyFormat: null
+      propagationMethod: all
+      selectionLabel: null
+      staticField: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: verbb\supertable\fields\SuperTableField
+  360f9e5a-8f0b-4250-a0a9-908ffba8cae7: # Draai-richting
+    columnSuffix: irgncgur
+    contentColumnType: string
+    fieldGroup: null
+    handle: direction
+    instructions: null
+    name: Draai-richting
+    searchable: false
+    settings:
+      options:
+        -
+          __assoc__:
+            -
+              - label
+              - Rechts
+            -
+              - value
+              - right
+            -
+              - default
+              - '1'
+        -
+          __assoc__:
+            -
+              - label
+              - Links
+            -
+              - value
+              - left
+            -
+              - default
+              - ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\Dropdown
+handle: textCarousel
+name: Tekst-carrousel
+sortOrder: 11

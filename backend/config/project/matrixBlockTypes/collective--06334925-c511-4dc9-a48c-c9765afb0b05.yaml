@@ -1,0 +1,61 @@
+field: 432cafcd-9d3b-4780-a696-4f52c651f7bb # Inhoud
+fieldLayouts:
+  c9c7a6e8-9891-4943-9a30-85e4ccbeffc2:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 8942454e-dc0a-4aff-bc66-283f4a3b5689 # Bedrijven
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 400b3078-7dae-4409-9e1f-077bb92900a3
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 0b37c088-f3d5-46b0-8bd0-6fcbb97cea17
+        userCondition: null
+fields:
+  8942454e-dc0a-4aff-bc66-283f4a3b5689: # Bedrijven
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: companies
+    instructions: null
+    name: Bedrijven
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:c72061bf-522e-4c3d-b805-35d995c5400f' # Collectief
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+handle: collective
+name: Collectief
+sortOrder: 14

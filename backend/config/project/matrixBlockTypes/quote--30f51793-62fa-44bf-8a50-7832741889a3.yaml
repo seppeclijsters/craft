@@ -1,0 +1,54 @@
+field: 432cafcd-9d3b-4780-a696-4f52c651f7bb # Inhoud
+fieldLayouts:
+  371ab144-62da-4796-b87e-6ee9e0d61803:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 90d890b7-49a5-45a3-940c-7a1e1af874fa # Quote
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 90d927bb-65b2-4382-8b61-28df1fb2d272
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 2590ecd6-3655-4952-875f-8cb11d7e25b1
+        userCondition: null
+fields:
+  90d890b7-49a5-45a3-940c-7a1e1af874fa: # Quote
+    columnSuffix: kriktual
+    contentColumnType: text
+    fieldGroup: null
+    handle: quote
+    instructions: null
+    name: Quote
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: QuoteOrCTA.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: quote
+name: Quote
+sortOrder: 6

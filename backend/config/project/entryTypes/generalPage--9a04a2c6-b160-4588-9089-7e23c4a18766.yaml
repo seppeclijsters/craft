@@ -1,0 +1,179 @@
+fieldLayouts:
+  ebb66fbc-96b7-4981-a232-e2aac73fdc47:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: 'Pagina titel'
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 326c7f84-5fe4-4c91-bc57-d1ffbf59532c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 709bd7f3-74c2-4300-a80a-d2cb773a23fa # Beeld
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0c7a45fc-6a74-4343-8dea-6912193c12f6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition:
+              class: craft\elements\conditions\entries\EntryCondition
+              conditionRules:
+                -
+                  class: craft\fields\conditions\RelationalFieldConditionRule
+                  elementId: null
+                  fieldUid: 709bd7f3-74c2-4300-a80a-d2cb773a23fa # Beeld
+                  operator: notempty
+                  uid: 716c64aa-9468-40a5-9bb5-e305c44dc514
+              elementType: craft\elements\Entry
+              fieldContext: global
+            fieldUid: e3263a02-c6fe-44b8-88ab-4b7956e9fad3 # Beeld in de achtergrond
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 770522b7-697d-4115-9c8f-33bd41ddc0f9
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 20f41f7d-16ab-41b9-9deb-7d4af6986002 # Titel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d315816d-5505-4305-81f9-3e6e39d12b9b
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 19bc65f2-2fc5-4403-bca9-5b1760de161a # Tekst
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 2e2ca235-cc8d-4f4b-ab2f-ad4f776cad3b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Header
+        uid: 4e16a41a-d52e-48a1-9908-192a389501b7
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 432cafcd-9d3b-4780-a696-4f52c651f7bb # Inhoud
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8e51cbe1-6aba-4dbd-9405-b498d410911c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: 59d991fb-2457-42bf-9480-e0b26e987035
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 28490f3d-f2e8-4b44-a79e-3a2bcfc995e0 # Toon in hoofdmenu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d106a246-bf26-4115-a06d-15128ba74291
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b6d582a0-3708-4eb2-a97a-137733798c96 # Toon in footermenu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: abbe56a9-9077-481c-a1ac-6c3a368c9584
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 25ad1ef3-4454-4516-a73e-5b19f8cb1c69 # Toon in Bottommenu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 85ff1bcf-2b00-485d-a7c0-1862d57a254d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Instellingen
+        uid: 7785a3f4-6ba1-449a-89a1-5094be6d244c
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 31185a1e-d632-4cc2-8236-db72839ce932 # SEO
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 62c7dbe3-2f7d-4a30-b68e-90a38a13d4ba
+            userCondition: null
+            warning: null
+            width: 100
+        name: Seo
+        uid: 456e6c6e-c88a-4f57-b551-f682c49664a3
+        userCondition: null
+handle: generalPage
+hasTitleField: true
+name: Pagina
+section: 44d976c2-3a84-4208-8672-99b816b9db7b # Pagina
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

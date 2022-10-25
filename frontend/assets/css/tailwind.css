@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    html {
+      @apply font-text;
+      scroll-behavior: smooth;
+    }
+  
+    h1 {
+      @apply font-bold font-title text-[40px] leading-[34px];
+    }
+  
+    h2 {
+      @apply font-bold font-title;
+    }
+  
+    h3 {
+      @apply font-bold font-title;
+    }
+  
+    blockquote {
+      @apply italic;
+    }
+  }
+
+  

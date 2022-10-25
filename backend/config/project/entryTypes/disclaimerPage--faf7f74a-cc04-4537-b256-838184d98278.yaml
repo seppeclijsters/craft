@@ -1,0 +1,121 @@
+fieldLayouts:
+  866a3f5f-a1d3-42e6-a2b9-f87001f7c4b8:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 321a7eb1-1c86-42bc-a72a-7bf68092cfa4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Header
+        uid: 060bc7b1-dac9-4a49-ba73-bf23e95cfbff
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: d0f4ada2-0e69-4b2e-b018-9a95519e5ec9 # Test
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8a937477-c6a0-4a2d-8982-8e587f11ac5b
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: d759c512-7632-4c34-a165-908f264bd4a8
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 28490f3d-f2e8-4b44-a79e-3a2bcfc995e0 # Toon in hoofdmenu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: dc962ec6-335a-417b-90d1-75e490fe6696
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b6d582a0-3708-4eb2-a97a-137733798c96 # Toon in footermenu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d9ed79c6-5c26-40c2-bf20-b80b14ab8c63
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 25ad1ef3-4454-4516-a73e-5b19f8cb1c69 # Toon in Bottommenu
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: a4ff2993-f300-4b0c-b27b-9aa788725143
+            userCondition: null
+            warning: null
+            width: 100
+        name: Instellingen
+        uid: 1184e617-fb23-4322-ac3b-701d97fb4006
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 31185a1e-d632-4cc2-8236-db72839ce932 # SEO
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: e200bb09-6afd-4c51-82ab-a83ed9559ccc
+            userCondition: null
+            warning: null
+            width: 100
+        name: SEO
+        uid: 8bbd82bb-c4b1-4875-9c17-fea30a4d1c39
+        userCondition: null
+handle: disclaimerPage
+hasTitleField: true
+name: 'Disclaimer page'
+section: 44d976c2-3a84-4208-8672-99b816b9db7b # Pagina
+sortOrder: 5
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

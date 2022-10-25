@@ -1,0 +1,72 @@
+fieldLayouts:
+  8fc00130-adb2-4914-9a26-d29d23729929:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: 7f1eb62f-009d-4895-b194-359c19882970 # Logo
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 9e9c7ca0-626d-4705-a273-499ddfd6431c
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 1babea0e-c93d-47e6-802a-860dcc9edac2 # Tekst
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: d34c8303-f330-4020-a550-a9fc84ce2a9d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Intro
+        uid: 76ebd57b-e9b8-42cc-ac59-d1533c3651e3
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: f382644f-65f9-4f24-804f-cf9b80695b03 # Footer Inhoud
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 63f5216d-bdf7-49e5-b8c9-06a2f9172a8d
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: a7c4f7f2-6773-4e33-964a-491acca74dfa
+        userCondition: null
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: b3a7b712-bb5a-410d-a4d7-04a64edf1a1c # Sociale media
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 4ffcc07e-e744-489c-a6b3-339f2ba47a96
+            userCondition: null
+            warning: null
+            width: 100
+        name: Socials
+        uid: 05ca41d8-6434-47f6-9b33-5aba0e4f8fdb
+        userCondition: null
+handle: footer
+name: Footer
+sortOrder: 2

@@ -1,0 +1,8 @@
+{
+    "plugins": ["fontcolor"],
+    "buttons": [
+        "html"
+    ],
+    "fontcolors": ["#F2396B"],
+    "toolbarFixed": true
+}

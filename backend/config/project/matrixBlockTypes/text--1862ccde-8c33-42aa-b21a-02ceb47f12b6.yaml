@@ -1,0 +1,54 @@
+field: 432cafcd-9d3b-4780-a696-4f52c651f7bb # Inhoud
+fieldLayouts:
+  21299bd0-f879-453a-bc29-d9865b37ebcb:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: be21b72c-0bc0-4469-ac04-9ff476dc1d9f # Tekst
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 43a5d4f6-59e2-4248-b67a-206f9f98d36f
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: 25b66ce2-cf4c-4da7-aea0-55a53600de06
+        userCondition: null
+fields:
+  be21b72c-0bc0-4469-ac04-9ff476dc1d9f: # Tekst
+    columnSuffix: lykpbbmu
+    contentColumnType: text
+    fieldGroup: null
+    handle: text
+    instructions: null
+    name: Tekst
+    searchable: false
+    settings:
+      availableTransforms: '*'
+      availableVolumes: '*'
+      columnType: text
+      configSelectionMode: choose
+      defaultTransform: ''
+      manualConfig: ''
+      purifierConfig: null
+      purifyHtml: true
+      redactorConfig: Simple.json
+      removeEmptyTags: false
+      removeInlineStyles: false
+      removeNbsp: false
+      showHtmlButtonForNonAdmins: false
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      uiMode: enlarged
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\redactor\Field
+handle: text
+name: Tekst
+sortOrder: 1

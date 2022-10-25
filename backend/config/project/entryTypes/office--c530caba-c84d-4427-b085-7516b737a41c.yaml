@@ -1,0 +1,67 @@
+fieldLayouts:
+  00a4384e-01bc-435b-9115-010f81c083b3:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            elementCondition: null
+            id: null
+            instructions: null
+            label: Naam
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\entries\EntryTitleField
+            uid: 2d15ad0d-f7bb-4e5b-a811-56b528d76c1e
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d3d41427-335c-435c-8b83-333bd4f59fb8 # Adres
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 0a369b77-d1b8-4248-8636-791c5da78ee5
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: d8ffc608-ab7f-43d9-b1be-94b59f1ed615 # Google maps link
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 8c59b2b0-3371-42b0-a298-56b4aa1ad6a4
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhoud
+        uid: f3257729-169e-454a-85d4-834e87fc8ce2
+        userCondition: null
+handle: office
+hasTitleField: true
+name: Kantoor
+section: 4bcc69db-9747-4d53-9bf1-2f9e3c111797 # Kantoren
+sortOrder: 1
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

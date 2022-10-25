@@ -1,0 +1,118 @@
+field: b3a7b712-bb5a-410d-a4d7-04a64edf1a1c # Sociale media
+fieldLayouts:
+  ff837ef7-e184-4d9b-9ca1-2b632b04d717:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: c66e7a55-fab4-442e-8c45-c40e102fcc76 # Platform
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 09dc2a74-ccd8-4fb4-83d0-a659b9a692e6
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: b8e95f72-2bd7-49de-84d0-52ee6ad15163 # Profiel-url
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 3736fea9-cd1f-41cd-ab7a-37e875fe0d32
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: a6ea6bdc-0a5a-45da-b547-feadf84e26a1
+        userCondition: null
+fields:
+  b8e95f72-2bd7-49de-84d0-52ee6ad15163: # Profiel-url
+    columnSuffix: null
+    contentColumnType: string
+    fieldGroup: null
+    handle: profileUrl
+    instructions: null
+    name: Profiel-url
+    searchable: false
+    settings:
+      allowCustomText: false
+      allowTarget: false
+      autoNoReferrer: false
+      customTextMaxLength: 0
+      customTextRequired: false
+      defaultLinkName: custom
+      defaultText: ''
+      enableAllLinkTypes: false
+      enableAriaLabel: false
+      enableElementCache: false
+      enableTitle: false
+      typeSettings:
+        asset:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        category:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        custom:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        email:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        entry:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+        site:
+          enabled: false
+          sites: '*'
+        tel:
+          allowAliases: false
+          disableValidation: false
+          enabled: false
+        url:
+          allowAliases: false
+          disableValidation: false
+          enabled: true
+        user:
+          allowCrossSiteLink: false
+          allowCustomQuery: false
+          enabled: false
+          sources: '*'
+    translationKeyFormat: null
+    translationMethod: none
+    type: lenz\linkfield\fields\LinkField
+  c66e7a55-fab4-442e-8c45-c40e102fcc76: # Platform
+    columnSuffix: null
+    contentColumnType: text
+    fieldGroup: null
+    handle: platform
+    instructions: null
+    name: Platform
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText

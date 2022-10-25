@@ -1,0 +1,93 @@
+field: 432cafcd-9d3b-4780-a696-4f52c651f7bb # Inhoud
+fieldLayouts:
+  5fec14c6-73b5-4ef1-96c9-66b79a891e69:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            elementCondition: null
+            fieldUid: a5c7159a-8ff8-4761-95f0-c8ece3954058 # Titel
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ff6d89fc-3337-4faf-9316-befa9e253b52
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            elementCondition: null
+            fieldUid: 823d86eb-4180-447d-95d8-747ecab4f8a2 # Kantoren
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: b57bef9f-a7b9-49d3-8659-b751a0cd4532
+            userCondition: null
+            warning: null
+            width: 100
+        name: Content
+        uid: ab304c69-8afa-407a-a72c-d3daf1b41ed0
+        userCondition: null
+fields:
+  823d86eb-4180-447d-95d8-747ecab4f8a2: # Kantoren
+    columnSuffix: mgiqjuyc
+    contentColumnType: string
+    fieldGroup: null
+    handle: offices
+    instructions: null
+    name: Kantoren
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      localizeRelations: false
+      maxRelations: null
+      minRelations: null
+      selectionCondition:
+        __assoc__:
+          -
+            - elementType
+            - craft\elements\Entry
+          -
+            - fieldContext
+            - global
+          -
+            - class
+            - craft\elements\conditions\entries\EntryCondition
+      selectionLabel: null
+      showSiteMenu: true
+      source: null
+      sources:
+        - 'section:4bcc69db-9747-4d53-9bf1-2f9e3c111797' # Kantoren
+      targetSiteId: null
+      validateRelatedElements: false
+      viewMode: null
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Entries
+  a5c7159a-8ff8-4761-95f0-c8ece3954058: # Titel
+    columnSuffix: wzptpswb
+    contentColumnType: text
+    fieldGroup: null
+    handle: heading
+    instructions: null
+    name: Titel
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: false
+      columnType: null
+      initialRows: 4
+      multiline: false
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: offices
+name: Kantoren
+sortOrder: 13

@@ -1,0 +1,14 @@
+{
+  "plugins": ["fontcolor"],
+  "buttons": [
+    "html",
+    "bold",
+    "italic",
+    "unorderedlist",
+    "orderedlist",
+    "link"
+  ],
+  "fontcolors": ["#F2396B"],
+  "linkNewTab": true,
+  "toolbarFixed": true
+}

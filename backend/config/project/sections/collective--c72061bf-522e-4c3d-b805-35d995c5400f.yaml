@@ -1,0 +1,12 @@
+defaultPlacement: end
+enableVersioning: true
+handle: collective
+name: Collectief
+propagationMethod: all
+siteSettings:
+  19424c73-8f9f-4f98-9003-2f44d57c83df: # headless
+    enabledByDefault: true
+    hasUrls: true
+    template: collectief/_entry
+    uriFormat: 'collectief/{slug}'
+type: channel

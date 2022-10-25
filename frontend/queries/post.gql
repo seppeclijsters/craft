@@ -1,0 +1,38 @@
+query getPost($slug: [String]!) {
+  entries(section: "jobs", slug: $slug) {
+    title
+    slug
+    id
+    typeHandle
+    ... on jobs_job_Entry {
+      headerBgImage {
+        id
+        url
+        alt
+      }
+      jobInfo {
+        ... on jobInfo_BlockType {
+          id
+          heading
+          text
+          offices {
+            id
+            title
+          }
+          image {
+            id
+          }
+          skills {
+            ... on skills_skill_BlockType {
+              skillName
+              skillLevel
+            }
+          }
+        }
+      }
+      contentGrid {
+        ...matrixFields
+      }
+    }
+  }
+}

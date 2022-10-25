@@ -1,0 +1,58 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 43a6af1b-ac9a-4cda-b7ac-9c6b0920ceb4 # SuperTable
+handle: jobInfo
+instructions: null
+name: Jobinfo
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 1080623716
+  columns:
+    __assoc__:
+      -
+        - 40e81c7e-a385-4e57-9eee-0d8d52246f89 # Titel
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - b9498107-857e-45cf-a39e-e86617807bb8 # Intro
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - cb1ed8b0-56ba-41ef-8b55-c58c17a7dde1 # Kantoor
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - f6b3aec1-0f51-46af-8931-cc3af3fb4170 # Beeld
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 1bd66503-6935-4ec5-a1f8-da4a12f3152c # Skills
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_jobinfo}}'
+  fieldLayout: row
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: true
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

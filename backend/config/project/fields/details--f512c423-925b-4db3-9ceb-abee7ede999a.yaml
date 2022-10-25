@@ -1,0 +1,51 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 43a6af1b-ac9a-4cda-b7ac-9c6b0920ceb4 # SuperTable
+handle: details
+instructions: null
+name: Details
+searchable: false
+settings:
+  blockTypeFields: 0
+  changedFieldIndicator: 198169106
+  columns:
+    __assoc__:
+      -
+        - 87b9e7dd-eee3-4c8c-b011-3c0b85377b29 # Beeld
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 46a6a41a-b2d0-459d-8de4-3cd8ddbe19d3 # Tekst
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - 16d75321-ee0c-4ae4-9308-9b7cf540d4d9 # Digital Phanatics
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+      -
+        - f93b2c29-e662-4362-a460-068860fbda12 # Knop
+        -
+          __assoc__:
+            -
+              - width
+              - ''
+  contentTable: '{{%stc_details}}'
+  fieldLayout: row
+  maxRows: null
+  minRows: null
+  propagationKeyFormat: null
+  propagationMethod: all
+  selectionLabel: null
+  staticField: true
+translationKeyFormat: null
+translationMethod: site
+type: verbb\supertable\fields\SuperTableField

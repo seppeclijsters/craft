@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 56779c0f-6a5b-4326-8af2-aa88a6f4100c # Matrix
+handle: footerGrid
+instructions: null
+name: 'Footer Inhoud'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_footergrid}}'
+  maxBlocks: 1
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix
