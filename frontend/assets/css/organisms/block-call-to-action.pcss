@@ -1,0 +1,46 @@
+.block-call-to-action {
+    @apply row;
+
+    &--dark {
+        @apply bg-dark text-white py-16;
+    }
+
+    &__image {
+        @apply col-span-main;
+        @screen nm {
+            @apply col-start-main-1 col-span-4;
+        }
+    }
+
+    &__content {
+        @apply col-span-main grid content-center text-xl;
+        @screen md {
+            @apply col-start-main-6 col-span-7 text-3xl;
+        }
+
+        .button {
+            @apply mt-6;
+        }
+    }
+
+    &__wrapper {
+        @apply col-span-main text-center;
+        @screen md {
+            @apply col-start-main-3 col-span-8;
+        }
+        @screen nm {
+            @apply col-start-main-4 col-span-6;
+        }
+        @screen lg {
+            @apply col-start-main-5 col-span-4;
+        }
+
+        .text > * {
+            @apply text-4xl;
+        }
+
+        .button {
+            @apply mt-12;
+        }
+    }
+}

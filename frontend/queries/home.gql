@@ -1,6 +1,0 @@
-query getHomePage {
-  entries(section: "pages", slug: "home") {
-    id
-    title
-  }
-}

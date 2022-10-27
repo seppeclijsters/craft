@@ -1,8 +1,0 @@
-query getStores($section: [String] = "keyboardVendors", $limit: Int = 5){
-    entries(section: $section, limit: $limit) {
-    	sectionHandle,
-        title,
-        slug,
-        id
-    }
-}

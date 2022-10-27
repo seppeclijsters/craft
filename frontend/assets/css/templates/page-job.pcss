@@ -1,0 +1,132 @@
+.page-job {
+    .intro {
+        @apply row;
+
+        &__inner-wrapper {
+            @apply col-span-main;
+
+            @screen md {
+                @apply col-start-main-2 col-span-10;
+            }
+
+            .job-info-heading {
+                @apply text-2xl font-medium mb-20;
+                @screen nm {
+                    @apply mb-20;
+                }
+            }
+
+            .job-info-text {
+                @screen nm {
+                    @apply mb-20;
+                }
+                p + p {
+                    @apply mt-10;
+                }
+            }
+
+            .job-info-offices {
+                @apply flex items-center gap-4;
+
+                svg {
+                    @apply stroke-primary;;
+                }
+
+                &__inner-wrapper {
+                    @apply list-none flex items-center gap-4;
+
+                    .office {
+                        @apply relative text-primary;
+
+                        &:not(:first-child){
+                            @apply pl-16;
+                            &:before {
+                                content: '';
+                                @apply absolute w-12 border border-t border-primary left-0 top-[50%];
+                            }
+                        }
+
+                        &:after {
+                            content: '';
+                            @apply absolute bottom-0 right-0 w-0 border-b border-primary;
+                        }
+
+                        &:hover {
+                            &:after {
+                                @apply w-full;
+                            }
+                            &:not(:first-child){ 
+                                &:after {
+                                    @apply w-[calc(100%-4rem)];
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .skills {
+        &__image {
+            @apply row relative;
+    
+            .image-wrapper {
+                @apply col-span-full object-fit;
+                @screen sm {
+                    @apply col-span-full;
+                }
+                @screen nm {
+                    @apply col-start-main-2 col-span-10;
+                }
+            }
+    
+            &:after {
+                content: '';
+                @apply absolute bg-dark left-0 right-0 bottom-0 h-[50%] z-[-1];
+            }
+        }
+
+        &__wrapper {
+            @apply row bg-dark text-white;
+            @screen nm {
+                @apply py-10 ;
+            }
+
+            .heading {
+                @apply col-span-main;
+                @screen nm {
+                    @apply col-start-main-2 col-span-4;
+                }
+
+                h2 {
+                    @screen nm {
+                        @apply text-7xl;
+                    }
+                }
+            }
+
+            .all-skills {
+                @apply col-span-main flex flex-col gap-y-3;
+                @screen nm {
+                    @apply col-start-main-7 col-span-5;
+                }
+
+                .skill {
+                    @apply flex justify-end items-center gap-x-4 text-base;
+
+                    &__balls {
+                        @apply flex;
+                        .ball {
+                            @apply block w-2 h-2 rounded-full bg-dark;
+    
+                            &--active {
+                                @apply bg-primary;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

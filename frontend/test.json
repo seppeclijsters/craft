@@ -1,0 +1,150 @@
+{
+    "uid": "3d7072e5-ebff-4744-837c-f910787565c2",
+    "typeHandle": "collective",
+    "companies": [
+        {
+            "title": "Smooth",
+            "image": [
+                {
+                    "url": "http://headless.test/assets/uploads/site/smooth.jpeg",
+                    "alt": null
+                }
+            ],
+            "website": {
+                "ariaLabel": null,
+                "customText": "Bekijk de website van Smooth",
+                "target": "",
+                "text": "Bekijk de website van Smooth",
+                "title": null,
+                "type": "url",
+                "url": "https://smooth.be/"
+            }
+        },
+        {
+            "title": "Sidekick",
+            "image": [
+                {
+                    "url": "http://headless.test/assets/uploads/site/sidekick.png",
+                    "alt": null
+                }
+            ],
+            "website": {
+                "ariaLabel": null,
+                "customText": "Bekijk de website van Sidekick",
+                "target": "",
+                "text": "Bekijk de website van Sidekick",
+                "title": null,
+                "type": "url",
+                "url": "https://sidekick.be/"
+            }
+        },
+        {
+            "title": "PHPro",
+            "image": [
+                {
+                    "url": "http://headless.test/assets/uploads/site/PHPro.png",
+                    "alt": null
+                }
+            ],
+            "website": {
+                "ariaLabel": null,
+                "customText": "Bekijk de website van PHPro",
+                "target": "",
+                "text": "Bekijk de website van PHPro",
+                "title": null,
+                "type": "url",
+                "url": "https://www.phpro.be/nl"
+            }
+        },
+        {
+            "title": "Induxx",
+            "image": [
+                {
+                    "url": "http://headless.test/assets/uploads/site/induxx.jpeg",
+                    "alt": null
+                }
+            ],
+            "website": {
+                "ariaLabel": null,
+                "customText": "Bekijk de website van Induxx",
+                "target": "",
+                "text": "Bekijk de website van Induxx",
+                "title": null,
+                "type": "url",
+                "url": "https://induxx.be/"
+            }
+        },
+        {
+            "title": "Meteor",
+            "image": [
+                {
+                    "url": "http://headless.test/assets/uploads/site/meteor.webp",
+                    "alt": null
+                }
+            ],
+            "website": {
+                "ariaLabel": null,
+                "customText": "Bekijk de website van Meteor",
+                "target": "",
+                "text": "Bekijk de website van Meteor",
+                "title": null,
+                "type": "url",
+                "url": "https://meteor.be/"
+            }
+        },
+        {
+            "title": "Gumbys",
+            "image": [
+                {
+                    "url": "http://headless.test/assets/uploads/site/gumbys.jpeg",
+                    "alt": null
+                }
+            ],
+            "website": {
+                "ariaLabel": null,
+                "customText": "Bekijk de website van Gumbys",
+                "target": "",
+                "text": "Bekijk de website van Gumbys",
+                "title": null,
+                "type": "url",
+                "url": "https://gumbys.be/"
+            }
+        },
+        {
+            "title": "Ewings",
+            "image": [
+                {
+                    "url": "http://headless.test/assets/uploads/site/ewings.jpeg",
+                    "alt": null
+                }
+            ],
+            "website": {
+                "ariaLabel": null,
+                "customText": "Bekijk de website van eWings",
+                "target": "",
+                "text": "Bekijk de website van eWings",
+                "title": null,
+                "type": "url",
+                "url": "https://ewings.be"
+            }
+        },
+        {
+            "title": "Appeel.io",
+            "image": [
+                {
+                    "url": "http://headless.test/assets/uploads/site/appeel.jpeg",
+                    "alt": null
+                }
+            ],
+            "website": {
+                "ariaLabel": null,
+                "customText": "Bekijk de website van Appeel.io",
+                "target": "",
+                "text": "Bekijk de website van Appeel.io",
+                "title": null,
+                "type": "url",
+                "url": "https://appeel.io"
+            }
+        }
+    ]
+}

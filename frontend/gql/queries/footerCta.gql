@@ -1,0 +1,20 @@
+query getFooterCta {
+    globalSet {
+        ... on footer_GlobalSet {
+            footerGrid {
+                ... on footerGrid_cta_BlockType {
+                    text
+                    button {
+                        ariaLabel
+                        customText
+                        target
+                        text
+                        title
+                        type
+                        url
+                    }
+                }
+            }
+        }
+    }
+}

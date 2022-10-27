@@ -1,0 +1,8 @@
+fragment seomaticFields on SeomaticInterface {
+  metaTitleContainer
+  metaTagContainer
+  metaLinkContainer
+  metaScriptContainer
+  metaJsonLdContainer
+  metaSiteVarsContainer
+}

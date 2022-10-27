@@ -1,0 +1,5 @@
+query getSocials {
+    seomatic(asArray: true) {
+        metaSiteVarsContainer
+    }
+}

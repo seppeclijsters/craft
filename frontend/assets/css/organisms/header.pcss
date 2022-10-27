@@ -1,0 +1,127 @@
+.site-header {
+    @apply relative bg-dark/[0.85] text-white row;
+
+    &__masthead {
+        @apply col-span-main flex justify-between py-10;
+
+        .nav {
+            @apply flex items-center gap-6 text-base font-normal;
+            &__menu {
+                @apply list-none flex flex-grow gap-6;
+
+                .active {
+                    @apply text-primary;
+                }
+            }
+        }
+    }
+
+    &__bg-image {
+        @apply absolute inset-0 object-fit z-[-1];
+    }
+
+
+    &__header-image {
+        @apply bg-yellow-300 col-start-1 col-end-main-11 my-20 aspect-9/4 object-fit;
+    }
+
+    &__header-title {
+        @apply col-start-main-1 col-span-4 mb-20;
+    }
+
+    &__header-text {
+        @apply col-start-main-6 col-span-4 mb-20;
+    }
+
+    &__form-title {
+        @apply col-start-main-1 col-span-2 py-20;
+    }
+
+    &__form {
+        @apply col-start-main-4 col-span-9 py-20;
+
+        .intro {
+            @apply text-3xl mb-10;
+        }
+
+        .form {
+            &__succes-message {
+                @apply p-4 bg-green-700 mb-8 text-base font-normal;
+            }
+
+            &__row {
+                @apply flex gap-x-8 mb-8;
+
+                .field {
+                    @apply flex-1;
+
+                    &__inner-wrapper {
+                        @apply flex flex-row-reverse;
+
+                        label {
+                            @apply block border-b border-white pr-4;
+                        }
+    
+                        input, textarea {
+                            @apply flex-grow bg-transparent border-b border-white;
+    
+                            &:focus {
+                                @apply text-primary border-primary;
+                                + label {
+                                    @apply text-primary border-primary;
+                                }
+                            }
+                        }
+                    }
+                    &__error {
+                        @apply text-primary text-xs font-medium uppercase mt-2;
+                    }
+
+                    &--textarea {
+
+                        .field__inner-wrapper {
+                            @apply flex flex-col-reverse;
+
+                            label {
+                                @apply w-full border-none;
+                            } 
+                            
+                            textarea {
+                                @apply w-full;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    &__big-title {
+        @apply col-span-main text-7xl text-center py-24;
+    }
+
+    &__big-image {
+        @apply col-span-full row relative z-10;
+        .image-wrapper {
+            @apply col-span-full ;
+            @screen sm {
+                @apply col-span-main;
+            }
+            @screen nm {
+                @apply col-start-main-2 col-span-10;
+            }
+        }
+
+        &:after {
+            content: '';
+            @apply z-[-1] absolute h-[50%] bottom-0 left-0 right-0 bg-white;
+        }
+    }
+
+    &__job-title {
+        @apply col-span-main text-center py-16;
+        .button {
+         @apply mt-12;
+        }
+    }
+}

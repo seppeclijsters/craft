@@ -1,0 +1,40 @@
+.block-jobs {
+    @apply row;
+
+    &__all-jobs {
+        @apply col-span-main list-none p-0 flex flex-col gap-6 justify-center;
+        @screen nm {
+            @apply col-start-main-1 col-span-5;
+        }
+
+        .job {
+            a {
+                @apply relative dt-colors;
+                h3 {
+                    @apply font-light dt-transform transform translate-x-0;
+                }
+                &:hover  {
+                    @apply text-primary;
+                    h3 {
+                        @apply translate-x-10
+                    }
+                }
+            }
+        }
+    }
+
+    &__content {
+        @apply col-span-main flex flex-col gap-6;
+        @screen nm {
+            @apply col-start-main-7 col-span-6;
+
+            .image {
+                @apply aspect-9/4 object-fit;
+            }
+
+            .text {
+                @apply text-base font-normal;
+            }
+        }
+    }
+}

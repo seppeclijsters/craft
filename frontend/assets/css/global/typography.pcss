@@ -1,0 +1,74 @@
+/**
+ * components/typography.css
+ *
+ * Typography rules.
+ *
+ */
+
+body {
+    @apply text-xl leading-relaxed font-sans font-light;
+}
+
+/*
+Headings
+*/
+h1 {
+    @apply leading-tight text-4xl font-normal;
+    @screen md {
+        @apply text-5xl;
+    }
+    @screen nm {
+        @apply text-7xl;
+    }
+}
+h2 {
+    @apply text-4xl;
+}
+h3 {
+    @apply text-4xl font-medium;
+}
+h4 {
+}
+h5 {
+}
+h6 {
+}
+
+/*
+Body text
+*/
+
+/*
+Lists
+*/
+ul {
+    @apply list-disc;
+}
+
+ol {
+    @apply list-disc;
+}
+
+ul,
+ol {
+    @apply pl-6;
+}
+
+/*
+Other
+*/
+a {
+    @apply outline-none;
+}
+
+.rte {
+    @apply font-normal;
+
+    ul, ol {
+        @apply flex flex-col gap-y-4;
+    }
+
+    ul {
+        @apply marker:text-primary;
+    }
+}

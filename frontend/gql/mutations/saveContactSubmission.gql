@@ -1,0 +1,21 @@
+mutation saveContactSubmission(
+  $contactName: String
+  $contactEmail: String
+  $contactPhone: String
+  $contactSubject: String
+  $contactQuestion: String
+) {
+  save_contact_Submission(
+    contactName: $contactName
+    contactEmail: $contactEmail
+    contactPhone: $contactPhone
+    contactSubject: $contactSubject
+    contactQuestion: $contactQuestion
+  ) {
+    contactName
+    contactEmail
+    contactPhone
+    contactSubject
+    contactQuestion
+  }
+}

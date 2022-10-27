@@ -1,0 +1,36 @@
+fragment formFields on FormInterface {
+  id
+  title
+  handle
+  pages {
+    name
+    settings{
+      submitButtonLabel
+      cssClasses
+    }
+    rows {
+      rowFields {
+        name
+        handle
+        typeName
+        displayName
+        conditions
+        required
+        ... on Field_Name {
+          firstNameLabel
+          firstNameRequired
+          firstNamePlaceholder
+          lastNameLabel
+          lastNameRequired
+          lastNamePlaceholder
+        }
+        ... on Field_Email {
+          placeholder
+        }
+        ... on Field_Phone {
+          placeholder
+        }
+      }
+    }
+  }
+}

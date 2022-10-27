@@ -1,0 +1,41 @@
+.block-offices {
+    @apply row;
+
+    &__inner-wrapper {
+        @apply col-span-main;
+        @screen nm {
+            @apply col-start-main-1 col-span-8 grid grid-cols-3 gap-8;
+        }
+
+        .office {
+            @apply text-base font-normal;
+
+            &__heading {
+                @apply dt-colors text-2xl font-light flex items-center gap-2;
+
+                svg {
+                    @apply stroke-primary;
+                }
+            }
+
+            &__address {
+                @apply mt-4;
+            }
+
+            &:hover h3 {
+                @apply text-primary;
+            }
+        }
+    }
+
+    &__heading {
+        @apply col-span-main font-normal normal-case;
+        @screen nm {
+            @apply col-start-main-10 col-span-3 text-7xl;
+        }
+
+        svg {
+            @apply mt-8 w-16;
+        }
+    }
+}

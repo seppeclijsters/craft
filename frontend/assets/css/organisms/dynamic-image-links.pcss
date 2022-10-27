@@ -1,0 +1,24 @@
+.dynamic-image-links {
+    @apply row;
+
+    &__image {
+        @apply col-span-full object-fit aspect-4/5;
+        @screen md {
+            @apply col-start-main-1 col-span-5;
+        }
+    }
+
+    &__companies {
+        @apply col-span-full flex flex-col justify-center gap-y-4;
+        @screen md {
+            @apply col-start-main-8 col-span-5;
+        }
+
+        h3 {
+            @apply dt-colors;
+            &.active {
+                @apply text-primary;
+            }
+        }
+    }
+}

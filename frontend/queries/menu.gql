@@ -1,7 +1,0 @@
-query getMenu {
-  entries(section: "pages", showInMainMenu: true) {
-    title
-    uid
-    uri
-  }
-}

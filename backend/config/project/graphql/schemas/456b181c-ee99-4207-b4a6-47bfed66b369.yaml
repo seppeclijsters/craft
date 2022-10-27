@@ -22,6 +22,8 @@ scope:
   - 'volumes.c721101d-e94c-4173-bf35-157876a59aa9:read' # Algemeen
   - 'globalsets.3d1f2d60-d2f3-4fa6-b7e3-9953e99780e6:read' # Footer
   - 'formieForms.all:read'
+  - 'formieForms.41653375-be8d-409c-beaf-c1b85935a9aa:read'
+  - 'formieForms.1517703e-221d-406f-9962-275aab112b53:read'
   - 'formieSubmissions.all:read'
   - 'seomatic.all:read'
   - 'sections.a865a5dc-3cc1-4802-b651-f2a5bd0d5781:edit' # Collabs

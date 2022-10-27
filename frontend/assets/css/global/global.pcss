@@ -1,0 +1,29 @@
+html {
+    @apply scroll-smooth;
+}
+
+body {
+}
+
+#__nuxt {
+    @apply h-screen;
+}
+
+.site-wrapper {
+    @apply flex-grow flex flex-col h-full;
+}
+
+.object-fit img {
+    @apply w-full h-full object-cover;
+    object-position: 50% 50%;
+}
+
+main {
+    @apply flex-grow;
+}
+
+header,
+main,
+footer {
+    flex-shrink: 0;
+}

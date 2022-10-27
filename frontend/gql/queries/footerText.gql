@@ -1,0 +1,7 @@
+query getFooterText {
+    globalSet {
+        ... on footer_GlobalSet {
+            text
+        }
+    }
+}

@@ -1,0 +1,13 @@
+mutation saveApplicationSubmission($jobName: String, $jobMail: String, $jobPhone: String, $jobCv: [FileUploadInput], $jobText: String) {
+  save_job_Submission(jobName: $jobName, jobMail: $jobMail, jobPhone: $jobPhone, jobCv: $jobCv, jobText: $jobText) {
+    title
+    jobName
+    jobMail
+    jobPhone
+    jobCv {
+      id
+      url
+    }
+    jobText
+  }
+}

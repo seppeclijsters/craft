@@ -1,77 +1,143 @@
-export async function usePageData() {
+export default function useStringMethods() {
     const route = useRoute()
-    const jobs = useState('jobs')
-    const currentJob = useState('currentJob')
-    const currentPage = useState('currentPage')
-    const menu = useState('menu')
+
+    /* 
+    -------------------
+    State 
+    -------------------
+    */
+    /* Page */
+    const currentPage = useState('currentPage', () => '')
+
+    /* Header */
+    const mainMenuItems = useState('mainMenuItems', () => '')
+
+    /* Footer */
+    const footerMenuItems = useState('footerMenuItems', () => '')
+    const footerText = useState('footerText', () => '')
+    const footerCta = useState('footerCta', () => '')
+    const socials = useState('socials', () => '')
+    const bottomMenuItems = useState('BottomMenuItems', () => '')
+
     /* Content */
     const collabs = useState('collabs', () => [])
 
+    /* 
+    -------------------
+    Methods 
+    -------------------
+    */
     const getPageData = async (pageType) => {
-        console.log('getPageData wordt uitgevoerd')
         try {
+            /* Check if preview */
+            let headers = {}
+            const { token } = route.query
+            if (token !== undefined) {
+                headers = {
+                    'x-Craft-Token': token ? `${token}` : '',
+                }
+                useGqlHeaders(headers)
+            } else {
+                useGqlHeaders(null)
+            }
+
+            /* Get page data */
             let response = null
-            // console.log("pageType")
-            // console.log(pageType)
-            // response = await GqlgetPage({ slug: route.params.slug })
             switch(pageType){
                 case 'collab':
                     response = await GqlGetCollabPage({ slug: route.params.slug })
                     break
                 case 'job':
-                    // response = await useAsyncData(`post`, () => GqlGetPost({ slug: route.params.job }))
-                    response = await GqlGetPost({ slug: route.params.slug })
-                    currentJob.value = response
-                    // currentPage.value = response
-                    console.log('job switch')
-                    break
-                case 'jobs':
-                    // response = await useAsyncData(`post`, () => GqlGetPosts())
-                    response = await GqlGetPosts()
-                    jobs.value = response
-                    // jobs.value = response
-                    // currentPage.value = response
-                    console.log('jobsss switch')
+                    response = await GqlGetJobPage({ slug: route.params.slug })
                     break
                 default:
-                    const pageUri = await route.params.slug
-                    console.log(pageUri)
-                    // console.log(pageUri)
-                    response = await GqlGetPage({ uri: pageUri ?? 'home' })
+                    const pageUri = route.params.slug?.join('/')
+                    response = await GqlGetPage({ uri: pageUri ?? '__home__' })
                     break
             }
-            // console.log(response.data.value.entries)
-            currentPage.value = response
+            currentPage.value = response.entry
         } catch (error) {
             throw new Error(error)
-        } finally {
-            // console.log(route.params.slug?.join('/'))
-            // console.log(currentPage?.value?.data?.entries[0])
         }
     }
 
-    await getPageData()
-
-
-    const getMenu = async () => {
+    const getMainMenuItems = async () => {
         try {
-            menu.value = await GqlGetMenu()
+            mainMenuItems.value = await GqlGetMainMenuItems()
         } catch (error) {
             throw new Error(error)
         }
     }
 
+    const getFooterMenuItems = async () => {
+        try {
+            footerMenuItems.value = await GqlGetFooterMenuItems()
+        } catch (error) {
+            throw new Error(error)
+        }
+    }
+
+    const getFooterText = async () => {
+        try {
+            footerText.value = await GqlGetFooterText()
+        } catch (error) {
+            throw new Error(error)
+        }
+    }
+
+    const getFooterCta = async () => {
+        try {
+            footerCta.value = await GqlGetFooterCta()
+        } catch (error) {
+            throw new Error(error)
+        }
+    }
+
+    const getSocials = async () => {
+        try {
+            socials.value = await GqlGetSocials()
+        } catch (error) {
+            throw new Error(error)
+        }
+    }
+
+    const getBottomMenuItems = async () => {
+        try {
+            bottomMenuItems.value = await GqlGetBottomMenuItems()
+        } catch (error) {
+            throw new Error(error)
+        }
+    }
+
+    const getCollabs = async () => {
+        try {
+            const response = await GqlGetCollabs()
+            collabs.value = response.entries
+            console.log(collabs.value)
+        } catch (error) {
+            throw new Error(error)
+        }
+    }
 
     return {
         /* State */
         currentPage,
+        mainMenuItems,
+        footerMenuItems,
+        footerText,
+        footerCta,
+        socials,
+        bottomMenuItems,
         collabs,
-        currentJob,
-        jobs,
-        menu,
 
         /* Methods */
         getPageData,
-        getMenu
+        getMainMenuItems,
+        getFooterMenuItems,
+        getFooterText,
+        getFooterCta,
+        getSocials,
+        getBottomMenuItems,
+        getCollabs,
     }
 }

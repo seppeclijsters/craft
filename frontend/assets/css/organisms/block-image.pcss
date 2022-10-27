@@ -1,0 +1,17 @@
+.block-image {
+    @apply row;
+
+    @screen nm {
+        @apply py-24;
+    }
+
+    &__inner-wrapper {
+        @apply col-span-full object-fit;
+        @screen sm {
+            @apply col-span-main;
+        }
+        @screen nm {
+            @apply col-start-main-2 col-span-10;
+        }
+    }
+}

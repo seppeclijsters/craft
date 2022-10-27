@@ -1,0 +1,29 @@
+button,
+.button {
+    @apply inline-flex items-center py-1 px-4 font-medium text-[15px];
+
+    &__ball {
+        @apply flex justify-center items-center w-4 h-4 mr-4 border border-current rounded-full;
+        .inner {
+            @apply w-2 h-2 bg-current rounded-full dt-all;
+        }
+    }
+
+    &:hover {
+        .button__ball .inner {
+            @apply w-4 h-4;
+        }
+    }
+
+    &--border {
+        @apply border border-current rounded-full;
+    }
+
+    &--primary {
+        @apply text-primary;
+    }
+
+    &--white {
+        @apply text-white;
+    }
+}

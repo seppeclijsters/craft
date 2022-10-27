@@ -32,8 +32,9 @@ return [
 
         'aliases' => [
             '@defaultSiteUrl' => getenv('PRIMARY_SITE_URL'),
-            '@assetsUrl' => getenv('PRIMARY_SITE_URL') . '/assets',
-            '@assetsPath' => realpath(dirname(__DIR__) . '/web/assets')
+            '@assetsUrl' => getenv('PRIMARY_SITE_URL') . 'assets',
+            '@assetsPath' => realpath(dirname(__DIR__) . '/web/assets'),
+            '@web' => 'http://localhost:8888/'
         ],
 
         // The secure key Craft will use for hashing and encrypting data

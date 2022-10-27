@@ -1,0 +1,110 @@
+.site-footer {
+    @apply bg-dark text-white row py-8 text-base font-normal gap-y-8;
+    @screen nm {
+        @apply pb-14
+    }
+
+    &__company {
+        @apply col-span-main flex flex-col items-center text-center;
+        @screen sm{
+            @apply col-start-main-1 col-span-6 text-left items-start;
+        }
+        @screen nm {
+            @apply col-start-main-1 col-span-4;
+        }
+
+        p {
+            @apply mt-6;
+            @screen nm {
+                @apply w-4/5;
+            }
+        }
+    }
+    &__menu {
+        @apply col-span-main list-none flex flex-col gap-y-2 p-0 text-center;
+        @screen sm {
+            @apply col-start-main-7 col-span-6 text-right;
+        }
+        @screen nm {
+            @apply col-start-main-5 col-span-3 text-left;
+        }
+
+        li {
+            @apply dt-colors;
+
+            &:hover {
+                @apply text-primary;
+            }
+        }
+    }
+    &__cta {
+        @apply col-span-main text-center;
+        @screen sm {
+            @apply col-start-main-1 col-span-6 text-left;
+        }
+        @screen nm {
+            @apply col-start-main-8 col-span-3;
+        }
+
+        .button {
+            @apply mt-6;
+        }
+    }
+    &__socials {
+        @apply col-span-main list-none flex flex-col gap-y-2 p-0 text-center;
+        @screen sm {
+            @apply col-start-main-7 col-span-6 text-right;
+        }
+        @screen nm {
+            @apply col-start-main-11 col-span-2;
+        }
+
+        a {
+            @apply dt-colors;
+
+            &:hover {
+                @apply text-primary;
+            }
+        }
+    }
+}
+
+.bottom-menu {
+    @apply row bg-grey-normal text-white py-4 text-base font-normal;
+
+    &__inner-wrapper {
+        @apply col-span-main flex flex-col text-center;
+        @screen md {
+            @apply flex-row text-left;
+        }
+
+        > * {
+            @apply flex-1;
+        }
+
+        p {
+            @apply mb-6;
+            @screen md {
+                @apply mb-0;
+            }
+        }
+
+        .menu {
+            @apply list-none flex flex-col gap-4;
+            @screen md {
+                @apply flex-row justify-end;
+            }
+            @screen nm {
+                @apply justify-start;
+            }
+
+            a {
+                @apply dt-colors;
+    
+                &:hover {
+                    @apply text-primary;
+                }
+            }
+        }
+    }
+}

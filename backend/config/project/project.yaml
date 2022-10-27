@@ -1,4 +1,4 @@
-dateModified: 1666701490
+dateModified: 1666884927
 elementSources:
   craft\elements\Entry:
     -
@@ -49,9 +49,9 @@ fs:
     hasUrls: true
     name: Algemeen
     settings:
-      path: '@assetsPath/uploads/site'
+      path: '@webroot/uploads/site'
     type: craft\fs\Local
-    url: '@assetsUrl/uploads/site/'
+    url: '@web/uploads/site/'
 meta:
   __names__:
     0ccebab6-cca9-4910-aa4c-f51d4fa00a00: 'Extra ruimte onderaan' # Extra ruimte onderaan

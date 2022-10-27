@@ -1,0 +1,13 @@
+query getCollabs {
+  entries(section: "collabs") {
+    id
+    url
+    ...on collabs_collab_Entry {
+        snippetImage {
+            url
+            alt
+        }
+        snippetButtonText
+    }
+  }
+}

@@ -1,0 +1,7 @@
+query getMainMenuItems {
+    entries(section: "pages", showInMainMenu: true) {
+        title
+        uid
+        uri
+    }
+}

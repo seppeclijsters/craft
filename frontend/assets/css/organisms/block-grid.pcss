@@ -1,0 +1,30 @@
+.block-grid {
+    @apply row;
+
+    &__inner-wrapper {
+        @apply col-span-main flex flex-col gap-y-8;
+
+        @screen nm {
+            @apply flex-row gap-12;
+        }
+
+        .text-block {
+            @apply flex-1 flex flex-col gap-6;
+
+            .heading {
+
+                &--big {
+                    @apply text-3xl font-light;
+                }
+            }
+
+            .text {
+                @apply text-base;
+            }
+        }
+    }
+
+    &--dark {
+        @apply bg-dark text-white py-20;
+    }
+}

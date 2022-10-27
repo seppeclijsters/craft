@@ -1,0 +1,63 @@
+.dynamic-text {
+    @apply row bg-dark text-white py-16;
+
+    &__inner-wrapper {
+        @apply col-span-main;
+
+        .heading {
+            @apply leading-tight;
+            @screen nm {
+                @apply w-3/4 text-3xl;
+            }
+
+            p + p {
+                @apply mt-8;
+            }
+        }
+
+        hr {
+            @apply my-4;
+            @screen nm {
+                @apply my-10;
+            }
+        }
+
+        .items {
+            @apply grid grid-cols-12;
+
+            &__content {
+                @apply col-start-1 col-span-6 text-base font-normal;
+            }
+
+            &__overview {
+                @apply col-start-9 col-span-4;
+
+                .items-wrapper {
+                    @apply p-0 list-none flex flex-col gap-y-6;
+
+                    .item {
+                        @apply dt-colors flex justify-between items-center;
+                        @screen nm {
+                            @apply text-3xl;
+                        }
+    
+                        &__ball {
+                            @apply flex justify-center items-center w-4 h-4 mr-4 border border-current rounded-full;
+                            .inner {
+                                @apply w-2 h-2 bg-current rounded-full dt-all;
+                            }
+                        }
+    
+                        &--active {
+                            @apply text-primary;
+                        }
+                    }
+                }
+
+                .button-wrapper {
+                    @apply mt-4;
+                }
+            }
+        }
+    }
+}

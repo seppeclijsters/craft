@@ -1,0 +1,57 @@
+query getJobPage ($slug: [String]!) {
+  entry(section: "jobs", slug: $slug) {
+    title
+    slug
+    sectionHandle
+    typeHandle
+    uid
+    id
+    uri
+    ...on jobs_job_Entry{
+      headerBgImage {
+        url
+        alt
+      }
+      headerButton {
+        ariaLabel
+        customText
+        target
+        text
+        title
+        type
+        url
+      }
+      jobInfo {
+        ...on jobInfo_BlockType{
+          heading
+          text
+          offices {
+            id
+            title
+            ... on offices_office_Entry {
+              gMapsUrl {
+                url
+              }
+            }
+          }
+          image {
+            url
+            slug
+          }
+          skills {
+            ...on skills_skill_BlockType{
+              skillName
+              skillLevel
+            }
+          }
+        }
+      }
+      contentGrid {
+        ...matrixFields
+      }
+    }
+    seomatic(asArray: true) {
+      ...seomaticFields
+    }
+  }
+}

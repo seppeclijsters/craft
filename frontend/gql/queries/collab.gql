@@ -1,0 +1,59 @@
+query getCollabPage($slug: [String]!) {
+  entry(section: "collabs", slug: $slug) {
+    title
+    slug
+    sectionHandle
+    typeHandle
+    uid
+    id
+    uri
+    ...on collabs_collab_Entry{
+      headerImage {
+        url
+        alt
+      }
+      headerTitle
+      headerSubtitle
+      headerIntro
+      details {
+        ...on details_BlockType{
+          image {
+            url
+            alt
+          }
+          text
+          companies {
+            ...on collective_Company_Entry {
+              id
+              title
+              website {
+                ariaLabel
+                customText
+                target
+                text
+                title
+                type
+                url
+              }
+            }
+          }
+          linkIt {
+            ariaLabel
+            customText
+            target
+            text
+            title
+            type
+            url
+          }
+        }
+      }
+      contentGrid {
+        ...matrixFields
+      }
+    }
+    seomatic(asArray: true) {
+      ...seomaticFields
+    }
+  }
+}

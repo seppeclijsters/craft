@@ -1,0 +1,16 @@
+.block-text-carousel {
+    @apply row;
+
+    &__inner-wrapper {
+        @apply col-span-full;
+
+        .swiper-slide {
+            @apply text-4xl !w-auto pl-[calc(8rem+50px)] relative;
+
+            &:before {
+                content: '';
+                @apply absolute border border-t border-dark w-32 top-[50%] left-0;
+            }
+        }
+    }
+}

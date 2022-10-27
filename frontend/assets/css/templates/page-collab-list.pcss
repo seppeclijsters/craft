@@ -1,0 +1,50 @@
+.page-collab-list {
+    &__intro {
+        @apply row;
+
+        .content {
+            @apply col-span-main;
+
+            &__grid {
+                @screen md {
+                    @apply grid grid-cols-2 gap-6 gap-y-12;
+                }
+                @screen nm {
+                    @apply grid-cols-4;
+                }
+
+                .block {
+                    &--text {
+                        @screen md {
+                            @apply col-start-1 col-span-1;
+                        }
+                        @screen nm {
+                            @apply col-span-2;
+                        }
+
+                        p {
+                            @apply text-2xl;
+                            @screen md {
+                                @apply text-4xl;
+                            }
+                        }
+
+                        p + p, .button {
+                            @apply mt-6;
+                        }
+                    }
+
+                    &--collab {
+                        .block__image {
+                            @apply mb-4;
+                        }
+
+                        .block__text {
+                            @apply text-2xl mb-4;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

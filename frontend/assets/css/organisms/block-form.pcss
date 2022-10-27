@@ -1,0 +1,19 @@
+.block-form {
+    @apply row;
+
+    &__heading {
+        @apply col-span-main text-center mb-4;
+
+        @screen nm {
+            @apply col-start-main-5 col-span-4 text-3xl mb-10;
+        }
+    }
+
+    &__form-wrapper {
+        @apply col-span-main;
+
+        @screen nm {
+            @apply col-start-main-2 col-span-10;
+        }
+    }
+}

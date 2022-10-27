@@ -1,0 +1,7 @@
+query getFooterMenuItems {
+    entries(section: "pages", showInFooterMenu: true) {
+        title
+        uid
+        uri
+    }
+}

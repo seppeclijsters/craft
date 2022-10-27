@@ -1,0 +1,36 @@
+.block-images {
+    @apply row;
+
+    &__content {
+        @apply col-span-main;
+        @screen nm {
+            @apply col-start-main-1 col-span-3;
+        }
+
+        .heading {
+            @apply text-xl;
+            @screen nm {
+                @apply text-3xl;
+            }
+        }
+
+        .button {
+            @apply mt-8;
+        }
+    }
+    &__carousel {
+        @apply col-span-full;
+        @screen nm {
+            @apply col-start-main-5 col-end-full;
+        }
+
+        .swiper {
+            .swiper-slide {
+                @apply w-auto;
+                img {
+                    @apply h-[300px] grayscale;
+                }
+            }
+        }
+    }
+}

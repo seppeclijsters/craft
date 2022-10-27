@@ -1,0 +1,28 @@
+.block-text-and-image {
+    @apply row gap-y-4;
+    @screen md {
+        @apply gap-y-12;
+    }
+
+    &__image {
+        @apply col-span-full object-fit aspect-9/4;
+        @screen md {
+            @apply col-start-main-2 col-span-10;
+        }
+    }
+    &__title {
+        @apply col-span-main;
+        @screen mdd {
+            @apply mt-4;
+        }
+        @screen md {
+            @apply col-start-main-2 col-span-4;
+        }
+    }
+    &__text {
+        @apply col-span-main;
+        @screen md {
+            @apply col-start-main-7 col-span-5;
+        }
+    }
+}

@@ -1,0 +1,93 @@
+query getPage($uri: [String]!) {
+  entry(section: "pages", uri: $uri) {
+    sectionHandle
+    typeHandle
+    title
+    slug
+    uid
+    id
+    uri
+    ... on pages_homePage_Entry {
+      headerIntro
+      headerBgImage {
+        id
+        url
+        alt
+      }
+      headerIntro
+      headerButton {
+        ariaLabel
+        customText
+        target
+        text
+        title
+        type
+        url
+      }
+      contentGrid {
+        ...matrixFields
+      }
+    }
+    ... on pages_generalPage_Entry {
+      headerImage {
+        id
+        url
+        alt
+      }
+      headerBgImage {
+        id
+        url
+        alt
+      }
+      headerTitle
+      headerIntro
+      contentGrid {
+        ...matrixFields
+      }
+    }
+    ... on pages_collabList_Entry {
+      headerIntro
+      collabs {
+        ... on collabs_BlockType {
+          intro
+          text
+          linkIt {
+            ariaLabel
+            customText
+            target
+            text
+            title
+            type
+            url
+          }
+        }
+      }
+      contentGrid {
+        ...matrixFields
+      }
+    }
+    ... on pages_contactPage_Entry {
+      headerTitle
+      headerIntro
+      headerForm {
+        ...formFields
+      }
+      headerImage {
+        id
+        url
+        alt
+      }
+      contentGrid {
+        ...matrixFields
+      }
+    }
+    ... on pages_disclaimerPage_Entry {
+      contentGrid {
+        ...matrixFields
+      }
+    }
+    seomatic(asArray: true) {
+      ...seomaticFields
+    }
+  }
+}
