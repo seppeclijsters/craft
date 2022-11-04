@@ -28,7 +28,7 @@ onMounted(() => {
             <div class="nav">
                 <nav class="nav__menu">
                     <li v-for="{ title, uri, uid } in mainMenuItems.entries" :key="uid">
-                        <NuxtLink :to="config.BASE_URL + '/' + uri">
+                        <NuxtLink :to="'/' + uri">
                             {{ title }}
                         </NuxtLink>
                     </li>

@@ -9,6 +9,9 @@ onMounted(async () => {
 </script>
 
 <template>
-    <CollabList v-if="currentPage.typeHandle === 'collabList'" />
-    <DefaultPage v-else />
+    <div>
+        <CollabList v-if="currentPage.typeHandle === 'collabList'" />
+        <DefaultPage v-else />
+
+    </div>
 </template>

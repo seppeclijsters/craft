@@ -13,6 +13,7 @@ onMounted(() => {
 
 <template>
     <div class="page-collab-list" v-if="currentPage">
+        <Header></Header>
         <div class="page-collab-list__intro g-mb">
             <div class="content">
                 <div v-html="currentPage.collabs[0].intro" class="content__intro-text g-mb"></div>

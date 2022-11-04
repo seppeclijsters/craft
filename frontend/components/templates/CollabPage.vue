@@ -5,6 +5,7 @@ const { urlLink } = useHelpers()
 
 <template>
     <div v-if="currentPage">
+        <Header></Header>
         <div class="intro g-mb">
             <div class="intro__inner-wrapper">
                 <h1 class="title">{{ currentPage.headerTitle ?? currentPage.title }}</h1>
